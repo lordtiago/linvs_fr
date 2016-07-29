@@ -1,0 +1,1 @@
+<?php echo __('Hi Admin, <br/><br/>A contact enquiry has been saved. Here are the details- <br/><br/>Name- %s <br/>Email- %s <br/>Contact No- %s <br/>Requirement- %s <br/><br/>Thanks', $name, $email, $phone, $requirement); ?>

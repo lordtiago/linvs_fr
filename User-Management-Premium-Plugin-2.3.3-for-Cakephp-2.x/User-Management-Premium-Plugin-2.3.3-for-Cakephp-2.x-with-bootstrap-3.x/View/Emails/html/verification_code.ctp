@@ -1,0 +1,1 @@
+<?php echo __('Hey %s,<br/><br/>You recently entered a new contact email address. Your email confirmation code is %s<br/><br/>Thanks,<br/>%s', $name, $code, SITE_NAME); ?>

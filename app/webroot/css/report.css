@@ -1,0 +1,131 @@
+/* 
+    Document   : report
+    Created on : 26/12/2011, 17:43:23
+    Author     : tiagor
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+@media all {
+body			 {font-family: Courier New; font-size: 12px;}
+.report_header           {border-bottom: 2px solid #000; border-top: 3px solid #000; line-height: 1.5; margin-top: 10px; margin-bottom: 10px;}
+.container_header        {margin-bottom: 10px;}
+.column_header           {border-bottom: 1px dashed #000; line-height: 1.5;}
+.column_details          {line-height: 1.5;margin-bottom: 2px;}
+.column_summary          {line-height: 1.5;margin-bottom: 2px; text-transform: uppercase; font-size: 115%; font-weight: bold; margin-top: 5px;}
+.number			 {text-align: right;}
+.details		 {border-bottom: 1px solid #000;}
+.report_header .date     {text-align: right;}
+}
+
+.sheet			 {margin-left: 75px; width: 90%;}
+
+.container {padding:5%;}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+p,
+ul,
+ol,
+form,
+table,
+address {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-bottom: 2rem;
+  font-size: 12px;
+}
+table{width: 100%;}
+@media print {
+    
+    * {
+        background:transparent !important;
+        color:#000 !important;
+        text-shadow:none !important;
+        filter:none !important;
+        -ms-filter:none !important;
+        }
+
+    body {
+        margin:0;
+        padding:0;
+        line-height: 1.4em;
+        font-size: 12px;
+    }
+    
+    @page {
+        margin: 0.5cm;
+    }
+    nav, footer, video, audio, object, embed { 
+        display:none; 
+    }
+    img {
+        max-width: 100%;
+    }
+    .wrap { 
+        width: 100%; 
+        margin: 0; 
+        float: none !important; 
+    }
+    
+    .sheet {margin-left: 0px; width: 100%;}
+    
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+    }
+    .col-md-12 {
+      width: 100%;
+    }
+    .col-md-11 {
+      width: 91.66666666666666%;
+    }
+    .col-md-10 {
+      width: 83.33333333333334%;
+    }
+    .col-md-9 {
+      width: 75%;
+    }
+    .col-md-8 {
+      width: 66.66666666666666%;
+    }
+    .col-md-7 {
+      width: 58.333333333333336%;
+    }
+    .col-md-6 {
+      width: 50%;
+    }
+    .col-md-5 {
+      width: 41.66666666666667%;
+    }
+    .col-md-4 {
+      width: 33.33333333333333%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-2 {
+      width: 16.666666666666664%;
+    }
+    .col-md-1 {
+      width: 8.333333333333332%;
+    }
+
+    table { page-break-inside:auto; font-size: 12px;}
+    thead { display:table-header-group }
+    tfoot { display:table-footer-group }
+
+}

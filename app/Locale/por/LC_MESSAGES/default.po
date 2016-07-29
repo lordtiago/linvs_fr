@@ -1,0 +1,2793 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-01-18 18:07+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Utility/CakeTime.php:160
+msgid "day"
+msgstr "dia"
+
+#: Controller/PeopleController.php:38;86;134
+msgid "Invalid person"
+msgstr "Pessoa inexistente"
+
+#: Model/Person.php:33
+msgid "This field already exists"
+msgstr "Esta pessoa já foi cadastrada"
+
+#: Controller/PeopleController.php:64;108
+msgid "The person has been saved."
+msgstr "A pessoa foi salva."
+
+#: Controller/PeopleController.php:67;111
+msgid "The person could not be saved. Please, try again."
+msgstr "A pessoa não foi salvo. Por favor, tente novamente."
+
+#: Controller/PeopleController.php:138
+msgid "The person has been deleted."
+msgstr "A pessoa foi deletada"
+
+#: Controller/PeopleController.php:140
+msgid "The person could not be deleted. Please, try again."
+msgstr "A pessoa não pode ser deletada. Por favor, tente mais tarde."
+
+#: Controller/TithesController.php:48;84;111
+msgid "Invalid tithe"
+msgstr "Cadastro inválido"
+
+#: Controller/TithesController.php:63;88
+msgid "The tithe has been saved."
+msgstr "O dízimo foi salvo."
+
+#: Controller/TithesController.php:66;91
+msgid "The tithe could not be saved. Please, try again."
+msgstr "Falha ao registrar o dizimo. Por favor, tente novamente."
+
+#: Controller/TithesController.php:115
+msgid "The tithe has been deleted."
+msgstr "Registro de Dízimo deletado."
+
+#: Controller/TithesController.php:117
+msgid "The tithe could not be deleted. Please, try again."
+msgstr "O dízimo não pode ser deletado. Por favor, tente mais tarde."
+
+#: View/Layouts/default.ctp:53
+#: View/Helper/HtmlHelper.php:767
+msgid "Home"
+msgstr "Início"
+
+#: View/People/add.ctp:8
+#: View/People/edit.ctp:7
+#: View/People/index.ctp:2;5
+#: View/People/view.ctp:5
+msgid "People"
+msgstr "Pessoas"
+
+#: View/People/view.ctp:197
+msgid "Marriage"
+msgstr "Data de Casamento"
+
+#: View/People/add.ctp:8
+#: View/People/edit.ctp:7
+#: View/People/index.ctp:2
+#: View/People/view.ctp:5f
+msgid "/people"
+msgstr "/pessoa"
+
+#: View/People/add.ctp:9
+#: View/Tithes/add.ctp:9
+msgid "Add"
+msgstr "Adicionar"
+
+#: View/People/add.ctp:9
+msgid "/people/add"
+msgstr "/pessoa/cadastrar"
+
+#: View/People/add.ctp:14
+msgid "Add Person"
+msgstr "Cadastro de Pessoa"
+
+#: View/People/add.ctp:27;28;29
+#: View/People/edit.ctp:27;28;29
+msgid "(choose one)"
+msgstr "(escolha um)"
+
+#: View/People/add.ctp:40
+#: View/People/edit.ctp:40
+#: View/Tithes/add.ctp:30
+#: View/Tithes/edit.ctp:26
+#: View/Helper/FormHelper.php:1829
+#: View/Scaffolds/form.ctp:24
+msgid "Submit"
+msgstr "Enviar"
+
+#: View/People/add.ctp:51
+#: View/People/edit.ctp:50
+#: View/People/index.ctp:18;58
+#: View/People/view.ctp:170;194
+#: View/Tithes/add.ctp:40
+#: View/Tithes/edit.ctp:36
+#: View/Tithes/index.ctp:72;108
+#: View/Tithes/view.ctp:46
+#: View/Scaffolds/form.ctp:28
+#: View/Scaffolds/index.ctp:27;78
+#: View/Scaffolds/view.ctp:50
+msgid "Actions"
+msgstr "Ações"
+
+#: View/People/add.ctp:54
+#: View/People/edit.ctp:54
+#: View/People/view.ctp:174
+#: View/Tithes/add.ctp:44
+#: View/Tithes/edit.ctp:41
+#: View/Tithes/index.ctp:111
+#: View/Tithes/view.ctp:52
+msgid "List People"
+msgstr "Listar Pessoas"
+
+#: View/People/add.ctp:55
+#: View/People/edit.ctp:55
+#: View/People/index.ctp:61
+#: View/People/view.ctp:176
+msgid "List Parishes"
+msgstr "Listar Paróquias"
+
+#: View/People/add.ctp:56
+#: View/People/edit.ctp:56
+#: View/People/index.ctp:62
+#: View/People/view.ctp:177
+msgid "New Parish"
+msgstr "Nova Paróquia"
+
+#: View/People/add.ctp:57
+#: View/People/edit.ctp:57
+#: View/People/index.ctp:63
+#: View/People/view.ctp:178
+#: View/Tithes/add.ctp:43
+#: View/Tithes/edit.ctp:40
+#: View/Tithes/view.ctp:50
+msgid "List Tithes"
+msgstr "Listar Dízimos"
+
+#: View/People/add.ctp:58
+#: View/People/edit.ctp:58
+#: View/People/index.ctp:64
+#: View/People/view.ctp:179;217
+#: View/Tithes/index.ctp:110
+#: View/Tithes/view.ctp:51
+msgid "New Tithe"
+msgstr "Novo Dízimo"
+
+#: View/People/edit.ctp:8
+#: View/People/index.ctp:37
+#: View/People/view.ctp:207
+#: View/Tithes/edit.ctp:9
+#: View/Tithes/index.ctp:87
+#: View/Scaffolds/index.ctp:50
+#: View/Scaffolds/view.ctp:170
+msgid "Edit"
+msgstr "Editar"
+
+#: View/People/edit.ctp:8
+msgid "/people/edit"
+msgstr "/pessoa/editar"
+
+#: View/People/edit.ctp:13
+#: View/People/view.ctp:172
+msgid "Edit Person"
+msgstr "Editar Pessoa"
+
+#: View/People/edit.ctp:53
+#: View/People/index.ctp:38
+#: View/People/view.ctp:208
+#: View/Tithes/edit.ctp:39
+#: View/Tithes/index.ctp:88
+#: View/Scaffolds/form.ctp:32
+#: View/Scaffolds/index.ctp:52
+#: View/Scaffolds/view.ctp:176
+msgid "Delete"
+msgstr "Apagar"
+
+#: View/People/index.ctp:57
+#: View/Tithes/index.ctp:109
+msgid "First"
+msgstr "Primeiro"
+
+#: View/People/index.ctp:67
+#: View/Tithes/index.ctp:119
+msgid "Last"
+msgstr "Último"
+
+#: View/People/edit.ctp:53
+#: View/People/index.ctp:38
+#: View/People/view.ctp:173;208
+#: View/Tithes/edit.ctp:39
+#: View/Tithes/index.ctp:88
+#: View/Tithes/view.ctp:49
+#: View/Scaffolds/form.ctp:35
+#: View/Scaffolds/index.ctp:55
+#: View/Scaffolds/view.ctp:58;179
+msgid "Are you sure you want to delete # %s?"
+msgstr "Você deseja excluir # %s?"
+
+#: View/People/index.ctp:36
+#: View/People/view.ctp:6;206
+#: View/Tithes/index.ctp:86
+#: View/Tithes/view.ctp:3
+#: View/Scaffolds/index.ctp:49
+#: View/Scaffolds/view.ctp:164
+msgid "View"
+msgstr "Visualizar"
+
+#: View/People/index.ctp:46
+#: View/Tithes/index.ctp:96
+#: View/Scaffolds/index.ctp:66
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr "Página {:page} de {:pages}, exibindo {:current} registros de um total de {:count}, iniciando no registro {:start}, terminando no {:end}"
+
+#: View/People/index.ctp:51
+#: View/Tithes/index.ctp:101
+#: View/Scaffolds/index.ctp:71
+msgid "previous"
+msgstr "anterior"
+
+#: View/People/index.ctp:53
+#: View/Tithes/index.ctp:103
+#: View/Scaffolds/index.ctp:73
+msgid "next"
+msgstr "próximo"
+
+#: View/People/index.ctp:60
+#: View/People/view.ctp:175
+#: View/Tithes/add.ctp:45
+#: View/Tithes/edit.ctp:42
+#: View/Tithes/index.ctp:112
+#: View/Tithes/view.ctp:53
+msgid "New Person"
+msgstr "Nova Pessoa"
+
+#: View/People/view.ctp:6
+msgid "/people/view"
+msgstr "/pessoa/ver"
+
+#: View/People/view.ctp:8;11
+#: View/Tithes/view.ctp:38
+msgid "Person"
+msgstr "Pessoa"
+
+#: View/People/view.ctp:14
+msgid "Parents"
+msgstr "Pai/Mãe"
+
+#: View/People/view.ctp:18;143
+msgid "Spouse"
+msgstr "Cônjuge"
+
+#: View/People/view.ctp:22;156
+msgid "Childs"
+msgstr "Filhos"
+
+#: View/People/view.ctp:29;187
+#: View/Tithes/view.ctp:8
+msgid "Id"
+msgstr "Código"
+
+#: View/People/view.ctp:34
+msgid "Name"
+msgstr "Nome"
+
+#: View/People/view.ctp:39
+msgid "Birth"
+msgstr "Data de Nascimento"
+
+#: View/People/view.ctp:44
+msgid "Cpf"
+msgstr "CPF"
+
+#: View/People/view.ctp:49
+msgid "Rg"
+msgstr "RG"
+
+#: View/People/view.ctp:54
+msgid "Street"
+msgstr "Endereço"
+
+#: View/People/view.ctp:59
+msgid "Number"
+msgstr "N°"
+
+#: View/People/view.ctp:64
+msgid "District"
+msgstr "Bairro"
+
+#: View/People/view.ctp:69
+msgid "Cep"
+msgstr "CEP"
+
+#: View/People/view.ctp:74
+msgid "City"
+msgstr "Cidade"
+
+#: View/People/view.ctp:79
+msgid "Uf"
+msgstr "UF"
+
+#: View/People/view.ctp:84
+msgid "Country"
+msgstr "País"
+
+#: View/People/view.ctp:89
+msgid "Tel"
+msgstr ""
+
+#: View/People/view.ctp:94
+msgid "Cel"
+msgstr ""
+
+#: View/People/view.ctp:99
+msgid "Cel2"
+msgstr ""
+
+#: View/People/view.ctp:104
+msgid "Email"
+msgstr ""
+
+#: View/People/view.ctp:109
+msgid "Parish"
+msgstr "Paróquia"
+
+#: View/People/view.ctp:120
+msgid "Father"
+msgstr "Pai/Mãe"
+#: View/People/view.ctp:223
+msgid "Father2"
+msgstr "Pai/Mãe"
+
+#: View/People/view.ctp:123;131;145;159
+msgid "Name: "
+msgstr "Nome: "
+
+#: View/People/view.ctp:124;132;146;160
+msgid "Birth: "
+msgstr "Nascimento: "
+
+#: View/People/view.ctp:125;133;147;161
+msgid "Tel: "
+msgstr "Tel: "
+
+#: View/People/view.ctp:173
+msgid "Delete Person"
+msgstr "Apagar Pessoa"
+
+#: View/People/view.ctp:183
+msgid "Related Tithes"
+msgstr "Dízimos relacionados"
+
+#: View/People/view.ctp:188
+#: View/Tithes/view.ctp:13
+msgid "Value"
+msgstr "Valor"
+
+#: View/People/view.ctp:189
+#: View/Tithes/view.ctp:18
+msgid "Month"
+msgstr "Mês"
+
+#: View/Tithes/view.ctp:17
+msgid "Day"
+msgstr "Dia"
+
+#: View/Tithes/view.ctp:25
+msgid "Month Reference"
+msgstr "Mês de Referência"
+
+#: View/Tithes/add.ctp:21
+msgid "Month Ref"
+msgstr "Mês de Referência"
+
+#: View/People/view.ctp:190
+#: View/Tithes/view.ctp:23
+msgid "Year"
+msgstr "Ano"
+
+#: View/People/view.ctp:191
+#: View/Tithes/view.ctp:28
+msgid "Created"
+msgstr "Criação"
+
+#: View/People/view.ctp:192
+#: View/Tithes/view.ctp:33
+msgid "Modified"
+msgstr "Modificação"
+
+#: View/People/view.ctp:193
+msgid "Person Id"
+msgstr "Código da Pessoa"
+
+#: View/Tithes/add.ctp:8
+#: View/Tithes/edit.ctp:8
+#: View/Tithes/index.ctp:54;57
+#: View/Tithes/view.ctp:2
+msgid "Tithes"
+msgstr "Dízimos"
+
+#: View/Tithes/add.ctp:8
+#: View/Tithes/edit.ctp:8
+#: View/Tithes/index.ctp:54
+#: View/Tithes/view.ctp:2
+msgid "/tithes"
+msgstr "/dizimo"
+
+#: View/Tithes/add.ctp:9
+msgid "/tithes/add"
+msgstr "/dizimo/cadastrar"
+
+#: View/Tithes/add.ctp:15
+msgid "Add Tithe"
+msgstr "Cadastro do Dízimo"
+
+#: View/Tithes/edit.ctp:9
+msgid "/tithes/edit"
+msgstr "/dizimo/editar"
+
+#: View/Tithes/edit.ctp:14
+#: View/Tithes/view.ctp:48
+msgid "Edit Tithe"
+msgstr "Atualizar Dízimo"
+
+#: View/Tithes/index.ctp:1
+msgid "January"
+msgstr "Janeiro"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2764
+msgid "February"
+msgstr "Fevereiro"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2765
+msgid "March"
+msgstr "Março"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2766
+msgid "April"
+msgstr "Abril"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2767
+msgid "May"
+msgstr "Maio"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2768
+msgid "June"
+msgstr "Junho"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2769
+msgid "July"
+msgstr "Julho"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2770
+msgid "August"
+msgstr "Agosto"
+
+#: View/Tithes/index.ctp:1
+#: View/Helper/FormHelper.php:2771
+msgid "September"
+msgstr "Setembro"
+
+#: View/Tithes/index.ctp:2
+#: View/Helper/FormHelper.php:2772
+msgid "October"
+msgstr "Outubro"
+
+#: View/Tithes/index.ctp:2
+#: View/Helper/FormHelper.php:2773
+msgid "November"
+msgstr "Novembro"
+
+#: View/Tithes/index.ctp:2
+#: View/Helper/FormHelper.php:2774
+msgid "December"
+msgstr "Dezembro"
+
+#: View/Tithes/index.ctp:59
+msgid "<"
+msgstr ""
+
+#: View/Tithes/index.ctp:61
+msgid ">"
+msgstr ""
+
+#: View/Tithes/view.ctp:3
+msgid "/tithes/view"
+msgstr "/dizimo/ver"
+
+#: View/Tithes/view.ctp:6
+msgid "Tithe"
+msgstr "Dízimo"
+
+#: View/Tithes/view.ctp:49
+msgid "Delete Tithe"
+msgstr "Apagar Dízimo"
+
+#: View/Tithes/report_simplify.ctp:10
+msgid "Date"
+msgstr "Data"
+
+#: Model/Person.php:validation for field name
+msgid "This field doesn't should be empty"
+msgstr "Este campo não pode ficar em branco"
+
+#: Model/Person.php:validation for field birth
+msgid "date"
+msgstr "data"
+
+#: Model/Person.php:validation for field uf
+msgid "maxLength"
+msgstr "tamanho máximo"
+
+#: Model/Person.php:validation for field email
+msgid "Type a valid email"
+msgstr "Digite um endereço de email válido"
+
+#: Model/Tithe.php:validation for field value
+msgid "Entry with a value"
+msgstr "Digite um valor"
+
+#: Model/Tithe.php:validation for field month;validation for field year;validation for field person_id
+msgid "numeric"
+msgstr "somente números"
+
+#: Model/Tithe.php:validation for field created;validation for field modified
+msgid "datetime"
+msgstr "Data/Hora"
+
+#: View/Errors/error400.ctp:22
+#: View/Errors/error500.ctp:22
+#: View/Errors/fatal_error.ctp:23
+#: View/Errors/missing_action.ctp:22;26
+#: View/Errors/missing_behavior.ctp:24;28
+#: View/Errors/missing_component.ctp:24;28
+#: View/Errors/missing_connection.ctp:22;33
+#: View/Errors/missing_controller.ctp:24;28
+#: View/Errors/missing_database.ctp:22;26
+#: View/Errors/missing_datasource.ctp:24
+#: View/Errors/missing_datasource_config.ctp:22
+#: View/Errors/missing_helper.ctp:24;28
+#: View/Errors/missing_layout.ctp:22;26
+#: View/Errors/missing_plugin.ctp:22;26
+#: View/Errors/missing_table.ctp:22
+#: View/Errors/missing_view.ctp:22;26
+#: View/Errors/pdo_error.ctp:22
+#: View/Errors/private_action.ctp:22
+#: View/Errors/scaffold_error.ctp:22
+msgid "Error"
+msgstr "Falha"
+
+#: View/Errors/error400.ctp:24
+msgid "The requested address %s was not found on this server."
+msgstr "O endereço acessado %s não está mais disponvível neste servidor."
+
+#: View/Errors/error500.ctp:23
+#: Error/ExceptionRenderer.php:233
+msgid "An Internal Error Has Occurred."
+msgstr "Uma falha interna ocorreu."
+
+#: Controller/Scaffold.php:130
+msgid "Scaffold :: "
+msgstr ""
+
+#: Controller/Scaffold.php:169;236;305
+msgid "Invalid %s"
+msgstr "Invalido %s"
+
+#: Controller/Scaffold.php:224
+msgid "updated"
+msgstr "atualizado"
+
+#: Controller/Scaffold.php:227
+msgid "saved"
+msgstr "salvo"
+
+#: Controller/Scaffold.php:247
+msgid "The %1$s has been %2$s"
+msgstr ""
+
+#: Controller/Scaffold.php:257
+msgid "Please correct errors below."
+msgstr "Por favor, corrija os erros abaixo"
+
+#: Controller/Scaffold.php:308
+msgid "The %1$s with id: %2$s has been deleted."
+msgstr "O %1$s com codigo: %2$s foi removido"
+
+#: Controller/Scaffold.php:311
+msgid "There was an error deleting the %1$s with id: %2$s"
+msgstr "Ocorreu um erro ao deletar o %1$s com código: %2$s"
+
+#: Controller/Component/AuthComponent.php:429
+msgid "You are not authorized to access that location."
+msgstr "Você não tem permissão para acessar este local."
+
+#: Error/ExceptionRenderer.php:211
+msgid "Not Found"
+msgstr "Não encontrado."
+
+#: Model/Validator/CakeValidationSet.php:288
+msgid "This field cannot be left blank"
+msgstr "Este campo não pode ficar em branco"
+
+#: Network/CakeResponse.php:1270
+msgid "The requested file was not found"
+msgstr "Arquivo não encontrado"
+
+#: Utility/CakeNumber.php:121
+msgid "%s KB"
+msgstr ""
+
+#: Utility/CakeNumber.php:123
+msgid "%s MB"
+msgstr ""
+
+#: Utility/CakeNumber.php:125
+msgid "%s GB"
+msgstr ""
+
+#: Utility/CakeNumber.php:127
+msgid "%s TB"
+msgstr ""
+
+#: Utility/CakeNumber.php:119
+msgid "%d Byte"
+msgid_plural "%d Bytes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Utility/CakeTime.php:400
+msgid "Today, %s"
+msgstr "Hoje, %s"
+
+#: Utility/CakeTime.php:403
+msgid "Yesterday, %s"
+msgstr "Ontem, %s"
+
+#: Utility/CakeTime.php:406
+msgid "Tomorrow, %s"
+msgstr "Amanhã, %s"
+
+#: Utility/CakeTime.php:411
+msgid "Sunday"
+msgstr "Domingo"
+
+#: Utility/CakeTime.php:412
+msgid "Monday"
+msgstr "Segunda"
+
+#: Utility/CakeTime.php:413
+msgid "Tuesday"
+msgstr "Terça"
+
+#: Utility/CakeTime.php:414
+msgid "Wednesday"
+msgstr "Quarta"
+
+#: Utility/CakeTime.php:415
+msgid "Thursday"
+msgstr "Quinta"
+
+#: Utility/CakeTime.php:416
+msgid "Friday"
+msgstr "Sexta"
+
+#: Utility/CakeTime.php:417
+msgid "Saturday"
+msgstr "Sábado"
+
+#: Utility/CakeTime.php:423
+msgid "On %s %s"
+msgstr ""
+
+#: Utility/CakeTime.php:744
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: Utility/CakeTime.php:745
+msgid "on %s"
+msgstr ""
+
+#: Utility/CakeTime.php:797
+msgid "just now"
+msgstr "agora"
+
+#: Utility/CakeTime.php:913
+msgid "about a second ago"
+msgstr "há um segundo atras"
+
+#: Utility/CakeTime.php:914
+msgid "about a minute ago"
+msgstr "há um minuto atras"
+
+#: Utility/CakeTime.php:915
+msgid "about an hour ago"
+msgstr "há uma hora atras"
+
+#: Utility/CakeTime.php:916
+msgid "about a day ago"
+msgstr "há um dia atras"
+
+#: Utility/CakeTime.php:917
+msgid "about a week ago"
+msgstr ""
+
+
+#: Plugin/Usermgmt/Controller/ContentsController.php:127;163
+msgid "The page has been saved"
+msgstr "Página salva com sucesso."
+
+#: Plugin/Usermgmt/Controller/ContentsController.php:206
+msgid "Selected page has been deleted successfully"
+msgstr "A Página selecionada foi excluída com sucesso."
+
+#: Plugin/Usermgmt/Controller/UserContactsController.php:137
+msgid "thank you for contacting us. we will be in touch with you very soon"
+msgstr "Muito obrigado por nos contatar. Nós entraremos em contato em breve."
+
+#: Plugin/Usermgmt/Controller/UserContactsController.php:166
+msgid "Contact Enquiry"
+msgstr "Contato armazenado."
+
+#: Plugin/Usermgmt/Controller/UserEmailSignaturesController.php:127;163
+msgid "The signature has been saved"
+msgstr "A assinatura foi salva."
+
+#: Plugin/Usermgmt/Controller/UserEmailSignaturesController.php:186
+msgid "Selected signature has been deleted successfully"
+msgstr "A assinatura selecionada foi deletada com sucesso"
+
+#: Plugin/Usermgmt/Controller/UserEmailTemplatesController.php:127;163
+msgid "The template has been saved"
+msgstr "O Modelo de Email foi salvo."
+
+#: Plugin/Usermgmt/Controller/UserEmailTemplatesController.php:186
+msgid "Selected template has been deleted successfully"
+msgstr "O Modelo de Email selecionado foi deletado com sucesso."
+
+#: Plugin/Usermgmt/Controller/UserEmailsController.php:458
+msgid "Invalid Id"
+msgstr "Id Inválido"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:136
+msgid "The group is successfully added"
+msgstr "O Grupo foi adicionado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:174
+msgid "The group is successfully updated"
+msgstr "O Grupo foi atualizado com sucesso."
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:198
+msgid "Sorry some users are associated with this group, You cannot delete this group"
+msgstr "Desculpe-nos, mas existem usuários associados a este grupo, você não pode excluir o grupo."
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:202
+msgid "Group is successfully deleted"
+msgstr "Grupo deletado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UserGroupsController.php:205
+msgid "Sorry sub group(s) are exist for this group, You cannot delete this group"
+msgstr "Desculpe-nos existem sub-grupos associados a este grupo, você não pode excluir o grupo."
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:126
+msgid "Selected setting is successfully updated"
+msgstr "Configuração selecionada foi atualizada com sucesso."
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:172
+msgid " has been modified successfully"
+msgstr " modificado com sucesso."
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:190
+msgid " has been copied to "
+msgstr " foi copiado para "
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:192;217;241
+msgid " file does not exist."
+msgstr " arquivo não existe."
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:195;220;244
+msgid "Missing Filename"
+msgstr "Faltando nome do arquivo"
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:212
+msgid " has been deleted"
+msgstr " foi deletado"
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:214
+msgid " file could not be deleted"
+msgstr " arquivo não pode ser deletado"
+
+#: Plugin/Usermgmt/Controller/UserSettingsController.php:239
+msgid " has been done empty"
+msgstr " está vazio"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:313
+msgid "Your profile has been successfully updated"
+msgstr "Seu perfil foi atualizado com sucesso."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:377;394
+msgid "Incorrect Email/Username or Password"
+msgstr "Email/Login ou Senha incorretos. "
+
+#: Plugin/Usermgmt/Controller/UsersController.php:387
+msgid "Your email has not been confirmed please verify your email or contact to Administrator"
+msgstr "Seu email não está confirmado, por favor verifique-o ou contate o Administrador"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:390;515;574;643;703;789;846
+msgid "Sorry your account is not active, please contact to Administrator"
+msgstr "Desculpe-nos sua conta está inativa, contate o Administrador"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:431
+msgid "Please fill recaptcha code"
+msgstr "Por favor, preencha-nos o código de recaptcha"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:489;569;633;694;765;841;964
+msgid "Sorry new registration is currently disabled, please try again later"
+msgstr "Desculpe-nos novos cadastros estão desabilitados, por favor tente novamente mais tarde."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:521;795
+msgid "Sorry your email is not verified yet"
+msgstr "Desculpe-nos seu email ainda não foi verificado"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:888
+msgid "You are successfully signed out"
+msgstr "Você foi desconectado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:928
+msgid "Please select correct register as"
+msgstr "Por favor selecione corretamente o registro como"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:957
+msgid "Please check your mail and confirm your registration"
+msgstr "Por favor, verifique seu email e confirme seu registro."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1014
+msgid "Your accounts were successfully merged"
+msgstr "Suas contas foram mescladas com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1018
+msgid "Email verification code is incorrect, please try again"
+msgstr "Código de verificação de Email incorreto, por favor tente novamente"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1043
+msgid "Password changed successfully"
+msgstr "Senha salva com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1052
+msgid "Sorry we have sent already 2 emails for verification code"
+msgstr "Desculpe-nos já enviamos 2 emails com o código de verificação."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1061
+msgid "We have sent you an email verification code"
+msgstr "Nós enviamos a você um email com código de verificação."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1104
+msgid "Password for %s changed successfully"
+msgstr "Senha para %s modificada com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1153
+msgid "The user is successfully added"
+msgstr "Usuário salvo com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1243
+msgid "all users information have been saved"
+msgstr "todas as informações do usuário foram salvas."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1258
+msgid "Please select atleast one user to save"
+msgstr "Por favor, selecione um usuário para salvar."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1302
+msgid "Invalid or empty data in CSV file, please try again"
+msgstr "Arquivo CSV inválido ou com dados vazios, por favor tente novamente."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1307
+msgid "CSV file was not uploaded or does not exist, please try again"
+msgstr "arquivo CSV não foi importado ou não existe, por favor tente novamente"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1333
+msgid "Please upload CSV file only"
+msgstr "Por favor, faça upload apenas de arquivo CSV"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1336
+msgid "Please upload CSV file"
+msgstr "Por favor faça upload de arquivo CSV"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1409
+msgid "The user is successfully updated"
+msgstr "Usuário atualizado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1444
+msgid "Selected user is deleted successfully"
+msgstr "O usuário selecionado foi removido com sucesso."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1468
+msgid "Your account is successfully deleted"
+msgstr "Sua conta foi deletada com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1472
+msgid "You are not allowed to delete account"
+msgstr "Você não está habilitado a deletar a conta."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1489
+msgid "User is successfully signed out"
+msgstr "Usuário deslogado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1507
+msgid "User is successfully signed out and deactivated"
+msgstr "Usuário foi desconectado e desativado"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1530
+msgid "Sorry there was a problem, please try again"
+msgstr "Desculpe, nos aconteceu um problema, tente novamente"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1552
+msgid "Selected user is de-activated successfully"
+msgstr "Usuário selecionado foi desativado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1554
+msgid "Selected user is activated successfully"
+msgstr "Usuário selecionado ativado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1584
+msgid "Email of selected user is verified successfully"
+msgstr "Email do usuário selecionado foi verificado com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1622
+msgid "Thank you, your account is activated now"
+msgstr "Obrigado, sua conta agora está ativada"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1625
+msgid "Thank you, your account is already activated"
+msgstr "Obrigado, sua conta já estava ativa."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1628;1631
+msgid "Sorry something went wrong, please click on the link again"
+msgstr "Ops, algo deu errado, clique no link novamente."
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1653;1686
+msgid "Incorrect Email/Username"
+msgstr "Email ou Nome de Usuário incorretos"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1659
+msgid "Your registration has not been confirmed yet please verify your email before reset password"
+msgstr "Seu cadastro ainda não está confirmado, por favor olhe seu email antes de resetar sua senha"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1663
+msgid "Please check your email for reset your password"
+msgstr "Porfavor, cheque seu email para resetar sua senha"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1692
+msgid "Please check your mail to verify your email address"
+msgstr "Por favor cheque sua caixa de mensagens"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1694
+msgid "Your email is already verified"
+msgstr "Seu email já foi verificado"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1725
+msgid "Your password has been reset successfully"
+msgstr "Senha resetada com sucesso"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1728
+msgid "Something went wrong, please send password reset link again"
+msgstr "Algo deu errado, clique no link de resetar senha novamente"
+
+#: Plugin/Usermgmt/Controller/UsersController.php:1731;1735
+msgid "Something went wrong, please click again on the link in email"
+msgstr "Algo deu errado, clique novamente no link do email"
+
+#: Plugin/Usermgmt/Controller/Component/SearchComponent.php:55;93;119
+msgid "Search model not found: %s"
+msgstr "Busca de modelo não encontrado: %s"
+
+#: Plugin/Usermgmt/Controller/Component/SearchComponent.php:200
+msgid "Selector method \"%s\" not found in model \"%s\" for field \"%s\"!"
+msgstr "Método de seleção \"%s\" não encontrado no modelo \"%s\" para o campo \"%s\"!"
+
+#: Plugin/Usermgmt/Controller/Component/UserAuthComponent.php:64
+msgid "Your account is currently logged in on another computer."
+msgstr "Sua conta atualmente está logada em outro computador."
+
+#: Plugin/Usermgmt/Controller/Component/UserAuthComponent.php:89
+msgid "You need to be signed in to view this page."
+msgstr "Você precisa estar logado para ver esta página."
+
+#: Plugin/Usermgmt/Model/Content.php:41
+msgid "Please enter page name"
+msgstr "Por favor digite o nome da página"
+
+#: Plugin/Usermgmt/Model/Content.php:46
+msgid "Please enter page url"
+msgstr "Por favor digite a url da página"
+
+#: Plugin/Usermgmt/Model/Content.php:50
+msgid "This url name already exist"
+msgstr "Esta url já existe"
+
+#: Plugin/Usermgmt/Model/Content.php:54
+msgid "Please enter page content"
+msgstr "Por favor cadastre o conteúdo da página"
+
+#: Plugin/Usermgmt/Model/User.php:68
+msgid "Please enter email or username"
+msgstr "Por favor digite o email ou nome de usuário"
+
+#: Plugin/Usermgmt/Model/User.php:73;176;287
+msgid "Please enter password"
+msgstr "Preencha a senha"
+
+#: Plugin/Usermgmt/Model/User.php:93;206
+msgid "Please select group"
+msgstr "Selecione um grupo"
+
+#: Plugin/Usermgmt/Model/User.php:97;210
+msgid "Please enter username"
+msgstr "Selecione um nome de usuário"
+
+#: Plugin/Usermgmt/Model/User.php:101;214
+msgid "Username must be alphaNumeric"
+msgstr "O nome de usuário deve ser alfanumérico"
+
+#: Plugin/Usermgmt/Model/User.php:106;219
+msgid "Username must contain any letter"
+msgstr "O nome de usuário deve conter alguma letra"
+
+#: Plugin/Usermgmt/Model/User.php:110;223
+msgid "This username already taken"
+msgstr "Este nome de usuário já existe"
+
+#: Plugin/Usermgmt/Model/User.php:118;231
+msgid "Username must be greater than 3 characters"
+msgstr "Nome de usuário deve ser maior que 3 caracteres"
+
+#: Plugin/Usermgmt/Model/User.php:124;241
+msgid "Please enter first name"
+msgstr "Digite o primeiro nome"
+
+#: Plugin/Usermgmt/Model/User.php:128;132;245;249
+msgid "Please enter valid first name"
+msgstr "Digite um primeiro nome válido"
+
+#: Plugin/Usermgmt/Model/User.php:138;255
+msgid "Please enter last name"
+msgstr "Digite o último nome"
+
+#: Plugin/Usermgmt/Model/User.php:142;146;259;263
+msgid "Please enter valid last name"
+msgstr "Digite um último nome válido"
+
+#: Plugin/Usermgmt/Model/User.php:152;269
+msgid "Please enter email"
+msgstr "Preencha o email"
+
+#: Plugin/Usermgmt/Model/User.php:156;273
+#: Plugin/Usermgmt/Model/UserContact.php:50
+#: Plugin/Usermgmt/Model/UserEmail.php:30;46
+msgid "Please enter valid email"
+msgstr "Preencha um email válido"
+
+#: Plugin/Usermgmt/Model/User.php:161;277
+#: Plugin/Usermgmt/View/Users/change_password.ctp:49
+msgid "This email is already registered"
+msgstr "Este email já está registrado"
+
+#: Plugin/Usermgmt/Model/User.php:167
+msgid "Please enter old password"
+msgstr "Por favor, digite a senha atual"
+
+#: Plugin/Usermgmt/Model/User.php:171
+msgid "Please enter correct old password"
+msgstr "Digite corretamente a senha atual"
+
+#: Plugin/Usermgmt/Model/User.php:181;292
+msgid "Password must be greater than 5 characters"
+msgstr "A senha deve ter mais de 5 caracteres"
+
+#: Plugin/Usermgmt/Model/User.php:186
+msgid "Both passwords must match"
+msgstr "Os campos de senha devem ter o mesmo valor"
+
+#: Plugin/Usermgmt/Model/User.php:235
+msgid "Duplicate username in this page"
+msgstr "Nome de usuário duplicado nesta página"
+
+#: Plugin/Usermgmt/Model/User.php:281
+msgid "Duplicate email in this page"
+msgstr "Email duplicado nesta página"
+
+#: Plugin/Usermgmt/Model/User.php:373;387;394;402
+msgid "You cannot set this username"
+msgstr "Você não pode usar este nome de usuário"
+
+#: Plugin/Usermgmt/Model/User.php:478
+msgid "Registration is Complete"
+msgstr "Cadastro Completo. Parabéns!"
+
+#: Plugin/Usermgmt/Model/User.php:507
+msgid "Contact Email Confirmation"
+msgstr "Email de Confirmação de Contato"
+
+#: Plugin/Usermgmt/Model/User.php:537
+msgid "Email Verification Code"
+msgstr "Código de Verficação no Email"
+
+#: Plugin/Usermgmt/Model/User.php:576
+msgid "Request to Reset Your Password"
+msgstr "Requisição para resetar senha"
+
+#: Plugin/Usermgmt/Model/User.php:606
+msgid "Change Password Confirmation"
+msgstr "Confirmação de Mudança de Senha"
+
+#: Plugin/Usermgmt/Model/User.php:749
+msgid "Select Gender"
+msgstr "Selecione o Sexo"
+
+#: Plugin/Usermgmt/Model/User.php:751
+msgid "Male"
+msgstr "Masculino"
+
+#: Plugin/Usermgmt/Model/User.php:752
+msgid "Female"
+msgstr "Feminino"
+
+#: Plugin/Usermgmt/Model/User.php:765
+msgid "Select Status"
+msgstr "Selecione o Estado Civil"
+
+#: Plugin/Usermgmt/Model/User.php:767
+msgid "Single"
+msgstr "Solteiro"
+
+#: Plugin/Usermgmt/Model/User.php:768
+msgid "Married"
+msgstr "Casado"
+
+#: Plugin/Usermgmt/Model/User.php:769
+msgid "Divorced"
+msgstr "Divorciado"
+
+#: Plugin/Usermgmt/Model/User.php:770
+msgid "Widowed"
+msgstr "Viúvo"
+
+#: Plugin/Usermgmt/Model/UserContact.php:41
+msgid "Please enter your name"
+msgstr "Digite o nome"
+
+#: Plugin/Usermgmt/Model/UserContact.php:46
+msgid "Please enter your email"
+msgstr "Digite o email"
+
+#: Plugin/Usermgmt/Model/UserContact.php:54
+msgid "Please enter requirement"
+msgstr "Campo requerido"
+
+#: Plugin/Usermgmt/Model/UserDetail.php:41
+msgid "Please select gender"
+msgstr "Selecione o sexo"
+
+#: Plugin/Usermgmt/Model/UserDetail.php:47
+msgid "Please select marital status"
+msgstr "Selecione o estado civil"
+
+#: Plugin/Usermgmt/Model/UserDetail.php:53
+msgid "Please enter valid cellphone no"
+msgstr "Digite um número de celular válido"
+
+#: Plugin/Usermgmt/Model/UserDetail.php:60;79
+msgid "Please select valid birthday date"
+msgstr "Digite uma data de nascimento válida"
+
+#: Plugin/Usermgmt/Model/UserDetail.php:66
+msgid "Please supply a valid image"
+msgstr "Por favor, envie uma imagem com formato válido"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:26
+msgid "Please enter to email"
+msgstr "Digite o email"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:36
+msgid "Please enter from name"
+msgstr "Preencha o nome"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:42
+msgid "Please enter from email"
+msgstr "Preencha o email"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:52
+msgid "Please enter email subject"
+msgstr "Digite o Assunto"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:58
+msgid "Please enter email message"
+msgstr "Digite a mensagem"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:64
+msgid "Please select user(s)"
+msgstr "Selecione o(s) usuário(s)"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:70
+msgid "Please select group(s)"
+msgstr "Selecione o(s) grupo(s)"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:76
+msgid "Please enter email(s)"
+msgstr Selecione o(s) email(s)""
+
+#: Plugin/Usermgmt/Model/UserEmail.php:80;87
+msgid "Please enter valid email(s)"
+msgstr "Digite email(s) válido(s)"
+
+#: Plugin/Usermgmt/Model/UserEmail.php:127
+msgid "Please fix the error near"
+msgstr "Por favor corrija o erro"
+
+#: Plugin/Usermgmt/Model/UserEmailSignature.php:41
+msgid "Please enter signature name"
+msgstr "Por favor preencha o campo de Assinatura de Email"
+
+#: Plugin/Usermgmt/Model/UserEmailTemplate.php:41
+msgid "Please enter template name"
+msgstr "Preencha o nome do modelo"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:53
+msgid "Please enter group name"
+msgstr "Preencha o nome do grupo"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:57
+msgid "Group name must be alphaNumeric"
+msgstr "O nome do grupo deve ser alfanumérico"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:61
+msgid "Group name must contain any letter"
+msgstr "O nome do grupo deve conter uma letra"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:65
+msgid "This group name already added"
+msgstr "O nome deste grupo já foi adicionado"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:71
+msgid "Please enter alias group name"
+msgstr "Por favor preencae um alias para o nome do grupo"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:75
+msgid "Alias group name must be alphaNumeric"
+msgstr "Alias deve ser alfanumérico"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:79
+msgid "Alias group name must contain any letter"
+msgstr "Alias deve conter uma letra"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:83
+msgid "This alias group name already added"
+msgstr "Alias já foi adicionado"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:255;277
+msgid "Select"
+msgstr "Selecione"
+
+#: Plugin/Usermgmt/Model/UserGroup.php:352
+msgid "No Group"
+msgstr "Nenhum Grupo"
+
+#: Plugin/Usermgmt/Model/UserSetting.php:41
+msgid "Please select category"
+msgstr "Por favor, selecione a Categoria"
+
+#: Plugin/Usermgmt/Model/UserSetting.php:92
+msgid "Select Category"
+msgstr "Select a Categoria"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:30
+#: Plugin/Usermgmt/View/Contents/index.ctp:33
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:114
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:108
+msgid "Add Page"
+msgstr "Adicionar Página"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:33
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:34
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:34
+#: Plugin/Usermgmt/View/UserEmailSignatures/add.ctp:33
+#: Plugin/Usermgmt/View/UserEmailSignatures/edit.ctp:33
+#: Plugin/Usermgmt/View/UserEmailTemplates/add.ctp:33
+#: Plugin/Usermgmt/View/UserEmailTemplates/edit.ctp:33
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:79
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:34
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:34
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:8
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:33
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:34
+#: Plugin/Usermgmt/View/UserSettings/edit_setting.ctp:34
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:55
+#: Plugin/Usermgmt/View/Users/add_user.ctp:40
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:34
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:33
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:41
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:38
+#: Plugin/Usermgmt/View/Users/view_user.ctp:34
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:34
+msgid "Back"
+msgstr "Voltar"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:40
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:42
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:45
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:35
+msgid "Page Name"
+msgstr "Nome da Página"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:43
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:45
+msgid "For ex. Contact Us, About Us"
+msgstr "Por ex. Contate-nos, Quem Somos"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:47
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:49
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:49
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:36
+msgid "Url Name"
+msgstr "Nome da Url"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:50
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:52
+msgid "For ex. contactus, contactus.html, aboutus, aboutus.html"
+msgstr "For ex. contato, contato.html, quem-somos, quem-somos.html"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:54
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:56
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:57
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:37
+msgid "Page Title"
+msgstr "Título da Página"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:57
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:59
+msgid "For ex. Your Contact Details"
+msgstr "Por ex. Seus detalhes de Contato"
+
+#: Plugin/Usermgmt/View/Contents/add_page.ctp:61
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:63
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:61
+msgid "Page Content"
+msgstr "Página de Conteúdo"
+
+#: Plugin/Usermgmt/View/Contents/edit_page.ctp:30
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:63
+msgid "Edit Page"
+msgstr "Editar Página"
+
+#: Plugin/Usermgmt/View/Contents/index.ctp:30
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:117
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:111
+#: Plugin/Usermgmt/View/Elements/panel.ctp:130
+msgid "All Pages"
+msgstr "Todas as Páginas"
+
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:30
+msgid "Page Detail"
+msgstr "Detalhes da Página"
+
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:37
+#: Plugin/Usermgmt/View/UserEmails/send_confirm.ctp:55
+#: Plugin/Usermgmt/View/UserEmails/send_reply_confirm.ctp:41
+#: Plugin/Usermgmt/View/UserEmails/send_to_user_confirm.ctp:41
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:33
+#: Plugin/Usermgmt/View/Users/view_user.ctp:37
+#: View/Categories/admin_edit.ctp:7
+#: View/Categories/admin_index.ctp:22
+#: View/Posts/admin_edit.ctp:13
+#: View/Posts/admin_index.ctp:52
+#: View/Questions/admin_index.ctp:24
+#: View/Schedules/admin_edit.ctp:4
+#: View/Schedules/admin_index.ctp:32
+#: View/Themes/admin_edit.ctp:11
+#: View/Themes/admin_index.ctp:28
+msgid "Edit"
+msgstr "Editar"
+
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:53
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:38
+msgid "Page Link"
+msgstr "Link da Página"
+
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:65
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:39
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:37
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:38
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:40
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:42
+msgid "Created"
+msgstr "Data de Criação"
+
+#: Plugin/Usermgmt/View/Contents/view_page.ctp:69
+msgid "Modified"
+msgstr "Data de Modificação"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:34
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:34
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:34
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:34
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:34
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:34
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:34
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:37
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:42
+msgid "SL"
+msgstr "SL"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:35
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:35
+msgid "User Id"
+msgstr "Id de Usuário"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:36
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:35
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:36
+#: Plugin/Usermgmt/View/Elements/contact_us.ctp:30
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:35
+#: Plugin/Usermgmt/View/UserEmails/send_confirm.ctp:129
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:60
+#: View/Categories/admin_view.ctp:14
+#: View/Schedules/admin_view.ctp:14
+msgid "Name"
+msgstr "Nome"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:37
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:38
+#: Plugin/Usermgmt/View/Elements/contact_us.ctp:31
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:36
+#: Plugin/Usermgmt/View/Elements/panel.ctp:106
+#: Plugin/Usermgmt/View/UserEmails/send_confirm.ctp:130
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:61
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:69
+#: Plugin/Usermgmt/View/Users/add_user.ctp:71
+#: Plugin/Usermgmt/View/Users/change_password.ctp:45
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:61
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:74
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:68
+#: Plugin/Usermgmt/View/Users/register.ctp:68
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:61
+#: Plugin/Usermgmt/View/Users/view_user.ctp:72
+msgid "Email"
+msgstr "Email"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:38
+#: Plugin/Usermgmt/View/Elements/contact_us.ctp:32
+msgid "Contact No"
+msgstr "Número de Contato"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:39
+#: Plugin/Usermgmt/View/Elements/contact_us.ctp:33
+msgid "Requirement"
+msgstr "Requisito"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:40
+msgid "Reply Message"
+msgstr "Responder Mensagem"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:41
+msgid "Date"
+msgstr "Data"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:42
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:40
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:38
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:39
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:43
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:41
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:38
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:43
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:41
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:58
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:116
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:117
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:59
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:41
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:44
+msgid "Action"
+msgstr "Ações"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:69
+msgid "Send Reply"
+msgstr "Enviar Resposta"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:76
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:72
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:66
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:68
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:98
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:83
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:74
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:113
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:76
+#: Plugin/Usermgmt/View/UserEmails/send_confirm.ctp:158
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:82
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:65
+msgid "No Data"
+msgstr "Sem Dados"
+
+#: Plugin/Usermgmt/View/Elements/all_contacts.ctp:80
+msgid "Number of Enquiries"
+msgstr "Número de Informações"
+
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:61
+msgid "View Page"
+msgstr "Ver Página"
+
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:65
+msgid "Delete Page"
+msgstr "Apagar Página"
+
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:65
+msgid "Are you sure you want to delete this page?"
+msgstr "Você deseja mesmo, apagar esta página?"
+
+#: Plugin/Usermgmt/View/Elements/all_contents.ctp:76
+msgid "Number of Pages"
+msgstr "Número de Páginas"
+
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:35
+#: Plugin/Usermgmt/View/UserEmailSignatures/add.ctp:40
+#: Plugin/Usermgmt/View/UserEmailSignatures/edit.ctp:41
+msgid "Signature Name"
+msgstr "Assinatura de Email"
+
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:36
+msgid "Signature"
+msgstr "Assinatura"
+
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:57
+#: Plugin/Usermgmt/View/UserEmailSignatures/edit.ctp:30
+msgid "Edit Signature"
+msgstr "Editar Assinatura"
+
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:59
+msgid "Delete Signature"
+msgstr "Deletar Assinatura"
+
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:59
+msgid "Are you sure you want to delete this signature?"
+msgstr "Você deseja apagar esta assinatura?"
+
+#: Plugin/Usermgmt/View/Elements/all_email_signatures.ctp:70
+msgid "Number of Signatures"
+msgstr "Número de Assinaturas"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:35
+#: Plugin/Usermgmt/View/UserEmailTemplates/add.ctp:40
+#: Plugin/Usermgmt/View/UserEmailTemplates/edit.ctp:41
+msgid "Template Name"
+msgstr "Nome do Modelo"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:36
+msgid "Header"
+msgstr "Cabeçalho"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:37
+msgid "Footer"
+msgstr "Rodapé"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:59
+#: Plugin/Usermgmt/View/UserEmailTemplates/edit.ctp:30
+msgid "Edit Template"
+msgstr "Editar Modelo"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:61
+msgid "Delete Template"
+msgstr "Apagar Modelo"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:61
+msgid "Are you sure you want to delete this template?"
+msgstr "Você deseja deletar este modelo?"
+
+#: Plugin/Usermgmt/View/Elements/all_email_templates.ctp:72
+msgid "Number of Templates"
+msgstr "Número de Modelos"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:35
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:100
+msgid "Type"
+msgstr "Tipo"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:36
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:39
+msgid "Groups(s)"
+msgstr "Grupo(s)"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:37
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:132
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:59
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:59
+msgid "From Name"
+msgstr "Nome do Remetente"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:38
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:138
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:65
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:65
+msgid "From Email"
+msgstr "Email do Remetente"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:39
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:144
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:83
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:71
+msgid "Subject"
+msgstr "Assunto"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:40
+msgid "Sent By"
+msgstr "Enviado por"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:41
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:62
+msgid "Sent?"
+msgstr "Enviado?"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:42
+msgid "Date Sent"
+msgstr "Data de Envio"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:81
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:62
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:57
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:62;98
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:46;137
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:46;140;146
+#: Plugin/Usermgmt/View/Users/view_user.ctp:114;125
+msgid "Yes"
+msgstr "Sim"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:83
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:64
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:59
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:64
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:139
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:142;148
+#: Plugin/Usermgmt/View/Users/view_user.ctp:116;127
+msgid "No"
+msgstr "Não"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:91
+msgid "View Full Email & Recipients"
+msgstr "Visualizar Email Completo & Destinatários"
+
+#: Plugin/Usermgmt/View/Elements/all_emails.ctp:102
+msgid "Number of Records"
+msgstr "Número de Registros"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:34
+msgid "Group Id"
+msgstr "Id do Grupo"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:36
+msgid "Alias Name"
+msgstr "Nome Alias"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:37
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:54
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:56
+msgid "Parent Group"
+msgstr "Grupo Pai"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:38
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:60
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:62
+#: View/Categories/admin_view.ctp:19
+#: View/Schedules/admin_view.ctp:19
+msgid "Description"
+msgstr "Descrição"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:39
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:69
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:68
+msgid "Allow Registration"
+msgstr "Habilitar Registro"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:72
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:30
+msgid "Edit Group"
+msgstr "Editar Grupo"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:75
+msgid "Delete Group"
+msgstr "Deletar Grupo"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:75
+msgid "Are you sure you want to delete this group? Delete it your own risk"
+msgstr "Você deseja mesmo apagar o grupo? Delete por seu próprio risco"
+
+#: Plugin/Usermgmt/View/Elements/all_groups.ctp:87
+msgid "Number of Groups"
+msgstr "Número de Grupos"
+
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:34
+msgid "Sr. No."
+msgstr ""
+
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:35
+#: View/Categories/admin_view.ctp:7
+#: View/Schedules/admin_view.ctp:7
+msgid "Category"
+msgstr "Categoria"
+
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:36
+msgid "Setting Name"
+msgstr "Nome da Configuração"
+
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:37
+msgid "Setting Value"
+msgstr "Valor de Configuração"
+
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:67
+#: Plugin/Usermgmt/View/UserSettings/edit_setting.ctp:30
+msgid "Edit Setting"
+msgstr "Editar Configuração"
+
+#: Plugin/Usermgmt/View/Elements/all_settings.ctp:78
+msgid "Number of Settings"
+msgstr Número de Configurações""
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:37
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:68
+#: Plugin/Usermgmt/View/Users/add_user.ctp:53
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:43
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:56
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:56
+#: Plugin/Usermgmt/View/Users/register.ctp:50
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:49
+#: Plugin/Usermgmt/View/Users/view_user.ctp:60
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:40
+#: Plugin/Usermgmt/View/Users/view_user.ctp:122
+msgid "Email Verified"
+msgstr "Email verificado"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:41
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:96
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:89
+#: Plugin/Usermgmt/View/Users/view_user.ctp:100
+msgid "Status"
+msgstr "Status"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:69;94
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:99
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:92
+#: Plugin/Usermgmt/View/Users/view_user.ctp:103
+msgid "Active"
+msgstr "Ativo"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:71;94
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:101
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:94
+#: Plugin/Usermgmt/View/Users/view_user.ctp:105
+msgid "Inactive"
+msgstr "Inativo"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:80
+msgid "View User"
+msgstr "Visualizar Usuário"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:82
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:37
+msgid "Edit User"
+msgstr "Editar Usuário"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:84
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:132
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:51
+#: Plugin/Usermgmt/View/Elements/panel.ctp:63
+#: Plugin/Usermgmt/View/Users/change_password.ctp:30
+msgid "Change Password"
+msgstr "Alterar Senha"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:87
+msgid "Make Active"
+msgstr "Ativar"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:88
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:68
+msgid "Make Inactive"
+msgstr "Tornar Inativo"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:98
+msgid "Verify Email"
+msgstr "Verificar Email"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:98
+msgid "Are you sure you want to verify email of this user?"
+msgstr "Deseja verificar o email deste usuário?"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:102
+msgid "Delete User"
+msgstr "Remover Usuário"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:102
+msgid "Are you sure you want to delete this user?"
+msgstr "Tem certeza que deseja deletar este usuário?"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:104
+msgid "View Permissions"
+msgstr "Visualizar Permissões"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:106
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:94
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:90
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:76
+msgid "Send Mail"
+msgstr "Enviar Email"
+
+#: Plugin/Usermgmt/View/Elements/all_users.ctp:117
+msgid "Number of Users"
+msgstr "Número de Usuários"
+
+#: Plugin/Usermgmt/View/Elements/contact_us.ctp:40
+msgid "Submit"
+msgstr "Enviar"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:39
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:31
+#: Plugin/Usermgmt/View/Users/access_denied.ctp:34
+#: Plugin/Usermgmt/View/Users/dashboard.ctp:26
+msgid "Dashboard"
+msgstr "Painel"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:43
+msgid "Users"
+msgstr "Usuários"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:46
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:60
+#: Plugin/Usermgmt/View/Users/add_user.ctp:37
+#: Plugin/Usermgmt/View/Users/index.ctp:33
+msgid "Add User"
+msgstr "Adicionar Usuário"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:49
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:63
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:52
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:35
+msgid "Add Multiple Users"
+msgstr "Adicionar Multiplos Usuários"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:52
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:66
+#: Plugin/Usermgmt/View/Elements/panel.ctp:71
+#: Plugin/Usermgmt/View/Users/index.ctp:30
+msgid "All Users"
+msgstr "Todos os Usuários"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:55
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:69
+#: Plugin/Usermgmt/View/Elements/panel.ctp:79
+#: Plugin/Usermgmt/View/Users/online.ctp:30
+msgid "Online Users"
+msgstr "Usuários Online"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:60
+#: Plugin/Usermgmt/View/Elements/panel.ctp:90
+msgid "Groups"
+msgstr "Grupos"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:63
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:72
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:30
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:33
+msgid "Add Group"
+msgstr "Adicionar Grupo"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:66
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:75
+#: Plugin/Usermgmt/View/UserGroups/index.ctp:30
+msgid "All Groups"
+msgstr "Todos os Grupos"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:71
+#: View/AppUsers/admin_dashboard.ctp:2
+#: View/Categories/admin_add.ctp:5
+#: View/Categories/admin_edit.ctp:5
+#: View/Categories/admin_index.ctp:2
+#: View/Categories/admin_view.ctp:2
+#: View/Lessons/admin_add.ctp:2
+#: View/Lessons/admin_index.ctp:2
+#: View/Lessons/admin_view.ctp:2
+#: View/Posts/admin_add.ctp:2
+#: View/Posts/admin_edit.ctp:11
+#: View/Posts/admin_index.ctp:2
+#: View/Posts/admin_view.ctp:2
+#: View/Questions/admin_add.ctp:2
+#: View/Questions/admin_index.ctp:2
+#: View/Questions/admin_view.ctp:2
+#: View/Schedules/admin_add.ctp:2
+#: View/Schedules/admin_edit.ctp:2
+#: View/Schedules/admin_index.ctp:2
+#: View/Schedules/admin_view.ctp:2
+#: View/Themes/admin_add.ctp:9
+#: View/Themes/admin_edit.ctp:9
+#: View/Themes/admin_index.ctp:2
+#: View/Themes/admin_view.ctp:2
+msgid "Admin"
+msgstr "Admin"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:74
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:81
+#: Plugin/Usermgmt/View/Elements/panel.ctp:98
+msgid "Group Permissions"
+msgstr "Permissões de Grupo"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:77
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:84
+msgid "Subgroup Permissions"
+msgstr "Permissões de SubGrupos"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:80
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:117
+#: Plugin/Usermgmt/View/Elements/panel.ctp:146
+#: Plugin/Usermgmt/View/UserSettings/index.ctp:30
+msgid "All Settings"
+msgstr "Todas as Configurações"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:83
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:120
+#: Plugin/Usermgmt/View/Elements/panel.ctp:138
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:30
+msgid "Cake Logs"
+msgstr "Registros de Log"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:86
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:123
+#: Plugin/Usermgmt/View/Elements/panel.ctp:154
+msgid "Delete Cache"
+msgstr "Apagar Cache"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:91
+msgid "Mail"
+msgstr "Email"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:97
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:93
+msgid "View Sent Mails"
+msgstr "Visualizar Emails Enviados"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:100
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:96
+msgid "Contact Enquiries"
+msgstr "Informações de Contatos"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:103
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:99
+msgid "Email Templates"
+msgstr "Modelos de Email"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:106
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:102
+msgid "Email Signatures"
+msgstr "Assinaturas de Email"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:111
+msgid "Pages"
+msgstr "Páginas"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:123
+msgid "My Account"
+msgstr "Minha Conta"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:126
+msgid "View Profile"
+msgstr "Visualizar Perfil"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:129
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:48
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:30
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:135
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:54
+msgid "Delete Account"
+msgstr "Apagar Conta"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:135
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:54
+msgid "Are you sure you want to delete your account?"
+msgstr "Você tm certeza de que deseja remover esta conta?"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:140
+#: Plugin/Usermgmt/View/UserContacts/contact_us.ctp:30
+msgid "Contact Us"
+msgstr "Contate-nos"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:142
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:66
+msgid "Sign Out"
+msgstr "Sair"
+
+#: Plugin/Usermgmt/View/Elements/dashboard.ctp:144
+#: Plugin/Usermgmt/View/Elements/login.ctp:45
+#: Plugin/Usermgmt/View/Users/login.ctp:32
+#: Plugin/Usermgmt/View/Users/register.ctp:33
+msgid "Sign In"
+msgstr "Login"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:30
+#: Plugin/Usermgmt/View/Users/login.ctp:47;49
+msgid "Email / Username"
+msgstr "Email / Nome de Usuário"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:31
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:70
+#: Plugin/Usermgmt/View/Users/add_user.ctp:77
+#: Plugin/Usermgmt/View/Users/login.ctp:53;55
+#: Plugin/Usermgmt/View/Users/register.ctp:74
+msgid "Password"
+msgstr "Senha"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:34
+msgid "Remember Me"
+msgstr "Memorizar"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:35
+msgid " Remember Me"
+msgstr " Memorizar"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:48
+msgid "Register"
+msgstr "Registrar"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:51
+#: Plugin/Usermgmt/View/Users/login.ctp:81
+msgid "Forgot Password?"
+msgstr "Esqueci minha senha"
+
+#: Plugin/Usermgmt/View/Elements/login.ctp:52
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:31
+#: Plugin/Usermgmt/View/Users/login.ctp:82
+msgid "Email Verification"
+msgstr "Verificar Email"
+
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:36
+msgid "Hello"
+msgstr "Oi"
+
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:40
+msgid "Your last login time is "
+msgstr "O seu último login foi "
+
+#: Plugin/Usermgmt/View/Elements/old_panel.ctp:45
+#: Plugin/Usermgmt/View/Elements/panel.ctp:55
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:30
+msgid "My Profile"
+msgstr "Meu Perfil"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:37
+msgid "Last URL"
+msgstr "Ultima Url"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:38
+msgid "Browser"
+msgstr "Navegador"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:39
+#: Plugin/Usermgmt/View/Users/view_user.ctp:133
+msgid "Ip Address"
+msgstr "Endereço IP"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:40
+msgid "Last Action"
+msgstr "Última Ação"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:66
+msgid "Are you sure you want to sign out this user?"
+msgstr "Você quer mesmo deslogar este usuário?"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:68
+msgid "This user will signout and will not be able to login again"
+msgstr "Este usuário será desconectado e não conseguirá fazer login novamente"
+
+#: Plugin/Usermgmt/View/Elements/online_users.ctp:80
+msgid "Number of Online Users"
+msgstr "Número de Usuários Online"
+
+#: Plugin/Usermgmt/View/Elements/pagination.ctp:28
+msgid "Total Records"
+msgstr "Total de Registros"
+
+#: Plugin/Usermgmt/View/Elements/pagination.ctp:35
+#: View/Categories/admin_index.ctp:36
+#: View/Posts/admin_index.ctp:68
+#: View/Questions/admin_index.ctp:38
+#: View/Schedules/admin_index.ctp:46
+#: View/Themes/admin_index.ctp:42
+msgid "First"
+msgstr "Primeiro"
+
+#: Plugin/Usermgmt/View/Elements/pagination.ctp:42
+msgid "Previous"
+msgstr "Anterior"
+
+#: Plugin/Usermgmt/View/Elements/pagination.ctp:48
+msgid "Next"
+msgstr "Próximo"
+
+#: Plugin/Usermgmt/View/Elements/pagination.ctp:52
+#: View/Categories/admin_index.ctp:50
+#: View/Posts/admin_index.ctp:82
+#: View/Questions/admin_index.ctp:52
+#: View/Schedules/admin_index.ctp:60
+#: View/Themes/admin_index.ctp:56
+msgid "Last"
+msgstr "Último"
+
+#: Plugin/Usermgmt/View/Elements/pagination.ctp:58
+msgid "Page %s of %s"
+msgstr "Página  %s de %s"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:7
+#: View/Categories/admin_add.ctp:6
+#: View/Categories/admin_edit.ctp:6
+#: View/Categories/admin_index.ctp:3
+#: View/Categories/admin_view.ctp:3
+msgid "Categories"
+msgstr "Categorias"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:15
+#: View/Themes/admin_add.ctp:10
+#: View/Themes/admin_edit.ctp:10
+#: View/Themes/admin_index.ctp:3
+#: View/Themes/admin_view.ctp:3
+msgid "Themes"
+msgstr "Temas"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:23
+#: View/Posts/admin_add.ctp:3
+#: View/Posts/admin_edit.ctp:12
+#: View/Posts/admin_index.ctp:3
+#: View/Posts/admin_view.ctp:3
+msgid "Posts"
+msgstr "Posts"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:31
+msgid "Scraps"
+msgstr "Mural de Recados"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:39
+#: View/Questions/admin_add.ctp:3
+#: View/Questions/admin_index.ctp:3
+#: View/Questions/admin_view.ctp:3
+msgid "Questions"
+msgstr "Questões"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:47
+#: View/Schedules/admin_add.ctp:3
+#: View/Schedules/admin_edit.ctp:3
+#: View/Schedules/admin_index.ctp:3
+#: View/Schedules/admin_view.ctp:3
+msgid "Schedules"
+msgstr "Agendamento"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:114
+msgid "Modelos de Email"
+msgstr "Modelos de Email"
+
+#: Plugin/Usermgmt/View/Elements/panel.ctp:122
+msgid "Assinaturas de Email"
+msgstr "Assinaturas de Email"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:29
+msgid "Sign in using your account with"
+msgstr "Fazer login com as seguintes contas:"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:32
+msgid "Facebook Connect"
+msgstr "Conectar com Facebook"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:34
+msgid "Twitter Connect"
+msgstr "Conectar com Twitter"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:36
+msgid "Gmail Connect"
+msgstr "Conectar Com Gmail"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:38
+msgid "Yahoo Connect"
+msgstr "Conectar com Yahoo"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:40
+msgid "Linkedin Connect"
+msgstr "Conectar com Linkedin"
+
+#: Plugin/Usermgmt/View/Elements/provider.ctp:42
+msgid "Foursquare Connect"
+msgstr "Conectar com Foursquare"
+
+#: Plugin/Usermgmt/View/Elements/search_form.ctp:153
+msgid "Search"
+msgstr "Pesquisa"
+
+#: Plugin/Usermgmt/View/Emails/html/contact_enquiry.ctp:1
+msgid "Hi Admin, <br/><br/>A contact enquiry has been saved. Here are the details- <br/><br/>Name- %s <br/>Email- %s <br/>Contact No- %s <br/>Requirement- %s <br/><br/>Thanks"
+msgstr "Olá Admin, <br/><br/>As informações de contato estão salvas. Aqui estão os detalhes - <br/><br/>Nome- %s <br/>Email- %s <br/>N. de Contato - %s <br/> Obrigatório - %s <br/><br/>Obrigado"
+
+#: Plugin/Usermgmt/View/Emails/html/email_verification.ctp:1
+msgid "Hey %s, <br/><br/>You recently entered a contact email address.  To confirm your contact email, follow the link below: <br/><br/>%s<br/><br/>If clicking on the link doesn't work, try copying and pasting it into your browser.<br/><br/>Thanks,<br/>%s"
+msgstr "Hey %s, <br/><br/>Você recentemente cadastrou sua conta por este email.  Para confirmá-lo, veja o link abaixo: <br/><br/>%s<br/><br/>Se o clique não funcionar, Copie e cole o link em seu navegador.<br/><br/>Obrigado,<br/>%s"
+
+#: Plugin/Usermgmt/View/Emails/html/forgot_password.ctp:1
+msgid "Welcome %s,<br/><br/>You have requested to have your password reset on %s. Please click the link below to reset your password now: <br/><br/>%s<br/><br/>If clicking on the link doesn't work, try copying and pasting it into your browser.<br/><br/>Thanks,<br/>%s"
+msgstr "Bem-vindo %s,<br/><br/>Você solicitou que sua senha fosse resetada:  %s. Clique no link abaixo e resete agora: <br/><br/>%s<br/><br/>Se o clique não funcionar copie e cole o link no seu navegador.<br/><br/>Obrigado,<br/>%s"
+
+#: Plugin/Usermgmt/View/Emails/html/password_change.ctp:1
+msgid "Hey %s,<br/><br/>You recently changed your password on %s.<br/><br/>As a security precaution, this notification has been sent to your email addresse associated with your account.<br/><br/>Thanks,<br/>%s"
+msgstr "Hey %s,<br/><br/>Você recentemente mudou sua senha: %s.<br/><br/>Como medida de segurança esta notificaçõ foi enviado para o email associado a sua conta.<br/><br/>Obrigado,<br/>%s"
+
+#: Plugin/Usermgmt/View/Emails/html/registration.ctp:1
+msgid "Welcome %s,<br/><br/>Thank you for your registration on %s.<br/><br/>Thanks,<br/>%s"
+msgstr "Bem-vindo %s,<br/><br/>Obrigado por se registrar em %s.<br/><br/>Obrigado,<br/>%s"
+
+#: Plugin/Usermgmt/View/Emails/html/verification_code.ctp:1
+msgid "Hey %s,<br/><br/>You recently entered a new contact email address. Your email confirmation code is %s<br/><br/>Thanks,<br/>%s"
+msgstr "Hey %s,<br/><br/>Você recentemente cadastrou-se com este email de contato. Seu código de confirmação é %s<br/><br/>Obrigado,<br/>%s"
+
+#: Plugin/Usermgmt/View/Helper/UserAuthHelper.php:140
+msgid "Please enter correct words"
+msgstr "Por favor, digite as palavras corretas"
+
+#: Plugin/Usermgmt/View/UserContacts/index.ctp:30
+msgid "All Contact Enquiries"
+msgstr "Todas as informações de Contato"
+
+#: Plugin/Usermgmt/View/UserEmailSignatures/add.ctp:30
+#: Plugin/Usermgmt/View/UserEmailSignatures/index.ctp:33
+msgid "Add Signature"
+msgstr "Todas as Assinaturas"
+
+#: Plugin/Usermgmt/View/UserEmailSignatures/add.ctp:46
+#: Plugin/Usermgmt/View/UserEmailSignatures/edit.ctp:47
+msgid "Email Signature"
+msgstr "Assinatura de Email"
+
+#: Plugin/Usermgmt/View/UserEmailSignatures/index.ctp:30
+msgid "All Email Signatures"
+msgstr "Todas as Assinaturas de Email"
+
+#: Plugin/Usermgmt/View/UserEmailTemplates/add.ctp:30
+#: Plugin/Usermgmt/View/UserEmailTemplates/index.ctp:33
+msgid "Add Template"
+msgstr "Adicionar Modelo"
+
+#: Plugin/Usermgmt/View/UserEmailTemplates/add.ctp:46
+#: Plugin/Usermgmt/View/UserEmailTemplates/edit.ctp:47
+msgid "Email Header"
+msgstr "Cabeçalho de Email"
+
+#: Plugin/Usermgmt/View/UserEmailTemplates/add.ctp:52
+#: Plugin/Usermgmt/View/UserEmailTemplates/edit.ctp:53
+msgid "Email Footer"
+msgstr "Rodapé do Email"
+
+#: Plugin/Usermgmt/View/UserEmailTemplates/index.ctp:30
+msgid "All Email Templates"
+msgstr "Todos os modelos de email"
+
+#: Plugin/Usermgmt/View/UserEmails/index.ctp:30
+msgid "All Sent Emails"
+msgstr "Todos os emails enviados"
+
+#: Plugin/Usermgmt/View/UserEmails/index.ctp:33
+msgid "Send Email"
+msgstr "Enviar Email"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:106
+msgid "Select Groups(s)"
+msgstr "Selecionar grupos"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:112
+msgid "Select User(s)"
+msgstr "Selecionar Usuários"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:118
+msgid "To Email(s)"
+msgstr "Emails Desntinatários"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:121;128
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:55
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:55
+msgid "multiple emails comma separated"
+msgstr "para mais de um email separar com vírgula"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:125
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:52
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:52
+msgid "CC To"
+msgstr "CC para"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:150
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:71
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:77
+msgid "Select Template"
+msgstr "Selecionar Modelo"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:156
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:77
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:83
+msgid "Select Signature"
+msgstr "Selecionar Assinatura"
+
+#: Plugin/Usermgmt/View/UserEmails/send.ctp:162
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:89
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:89
+msgid "Message"
+msgstr "Mensagem"
+
+#: Plugin/Usermgmt/View/UserEmails/send_confirm.ctp:52
+msgid "Confirm Sending Email"
+msgstr "Confirmar envio de Email"
+
+#: Plugin/Usermgmt/View/UserEmails/send_confirm.ctp:127
+msgid "Sr No."
+msgstr ""
+
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:30
+msgid "Send Reply to"
+msgstr "Enviar resposta para"
+
+#: Plugin/Usermgmt/View/UserEmails/send_reply.ctp:46
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:46
+msgid "To"
+msgstr "Destinatário"
+
+#: Plugin/Usermgmt/View/UserEmails/send_reply_confirm.ctp:38
+msgid "Confirm Sending Reply to"
+msgstr "Confirmar Envio de Resposta para"
+
+#: Plugin/Usermgmt/View/UserEmails/send_to_user.ctp:30
+msgid "Send Mail to"
+msgstr "Enviar email para"
+
+#: Plugin/Usermgmt/View/UserEmails/send_to_user_confirm.ctp:38
+msgid "Confirm Sending Email to"
+msgstr "Confirmar Envio de Email para"
+
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:4
+msgid "Email Details"
+msgstr "Detalhes de Email"
+
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:52
+msgid "Email Recipients"
+msgstr "Destinatários de Email"
+
+#: Plugin/Usermgmt/View/UserEmails/view.ctp:59
+#: View/Categories/admin_view.ctp:9
+#: View/Schedules/admin_view.ctp:9
+#: View/Themes/admin_view.ctp:10
+msgid "Id"
+msgstr ""
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:37
+msgid "Parent Group Permissions"
+msgstr "Permissões de Grupos Pais"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:40
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:40
+msgid "View Matrix"
+msgstr "Visualizar Matriz"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:43
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:37
+msgid "Sub Group Permissions"
+msgstr "Permissões de SubGrupo"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:46
+msgid "Select Controller"
+msgstr "Selecionar Controller"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:57
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:58;115
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:59;116
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:43;58
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:43
+msgid "Controller"
+msgstr "Controller"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:59
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:60
+msgid "Permission"
+msgstr "Permissão"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/index.ctp:60
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:61
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:46
+msgid "Operation"
+msgstr "Operação"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:33
+msgid "Parent Group Permissions Matrix"
+msgstr "Matriz de Permissões do Grupo Pai"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:36
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:36
+msgid "View Standard"
+msgstr "Visualização Padrão"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_group_matrix.ctp:84
+#: Plugin/Usermgmt/View/Users/add_user.ctp:47
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:50
+#: Plugin/Usermgmt/View/Users/register.ctp:43
+msgid "Group"
+msgstr "Grupo"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:33
+msgid "Sub Group Permissions Matrix"
+msgstr "Matriz de Permissões de SubGrupo"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/permission_sub_group_matrix.ctp:85
+msgid "Sub Group"
+msgstr "Sub Grupo"
+
+#: Plugin/Usermgmt/View/UserGroupPermissions/sub_permissions.ctp:47
+msgid "Get Sub Groups of"
+msgstr "Obter SubGrupos de"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:40
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:42
+msgid "Group Name"
+msgstr "Nome do Grupo"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:43
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:45
+msgid "for ex. Business User"
+msgstr "por ex. Funcionário"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:47
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:49
+msgid "Alias Group Name"
+msgstr "Alias do Nome do Grupo"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:50
+#: Plugin/Usermgmt/View/UserGroups/edit_group.ctp:52
+msgid "for ex. Business_User (Must not contain space)"
+msgstr "por ex. Usuarios_Corporativo (Não deve conter espaço)"
+
+#: Plugin/Usermgmt/View/UserGroups/add_group.ctp:78
+msgid "Note: If you add a new group then you should give permissions to this newly created Group."
+msgstr "Nota: Se você adicionar um novo grupo, então você deve dar as permissões para o novo grupo criado."
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:38
+msgid "Log File"
+msgstr "Arquivo de Log"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:39
+msgid "Size"
+msgstr "Tamanho"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:40
+msgid "Last Modified"
+msgstr "Último Modificado"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:62
+msgid "View/Edit"
+msgstr "Ver/Editar"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:64
+msgid "Create Backup Copy"
+msgstr "Criar Cópia de Backup"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:64
+msgid "Are you sure, you want to create a copy of "
+msgstr "Você tem certeza de criar uma cópia do "
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:66
+#: View/Categories/admin_edit.ctp:19
+#: View/Categories/admin_index.ctp:23
+#: View/Posts/admin_edit.ctp:25
+#: View/Posts/admin_index.ctp:53
+#: View/Questions/admin_index.ctp:25
+#: View/Schedules/admin_edit.ctp:20
+#: View/Schedules/admin_index.ctp:33
+#: View/Themes/admin_edit.ctp:26
+#: View/Themes/admin_index.ctp:29
+msgid "Delete"
+msgstr "Apagar"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:66
+msgid "Are you sure, you want to delete log file "
+msgstr "Você tem certeza que quer apagar o arquivo de log "
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:68
+msgid "Empty File"
+msgstr "Arquivo vazio"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:68
+msgid "Are you sure, you want to empty log file "
+msgstr "Você tem certeza que quer limpar o log "
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:68
+msgid "You should create a backup before doing empty this file."
+msgstr "Você deve criar um backup antes de limpar este arquivo."
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:75
+msgid "I recommend to take a backup log files then make empty them weekly or monthly. It can improve site performance."
+msgstr "Eu recomendo fazer um backup do log de arquivos e somente então limpá-lo semanalmente ou mensalmente. Isso aumentará o desempenho do site."
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:79
+msgid "Close"
+msgstr "Fechar"
+
+#: Plugin/Usermgmt/View/UserSettings/cakelog.ctp:80
+msgid " details"
+msgstr " detalhes"
+
+#: Plugin/Usermgmt/View/UserSettings/edit_setting.ctp:41
+msgid "Setting Category"
+msgstr "Categoria desta Configuração"
+
+#: Plugin/Usermgmt/View/Users/access_denied.ctp:30
+msgid "Access Denied"
+msgstr "Acesso Negado"
+
+#: Plugin/Usermgmt/View/Users/access_denied.ctp:34
+msgid "Sorry, You don't have permission to view that page. go to"
+msgstr "Desculpe-me, você não tem permissão para acessar esta página. Va para "
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:31
+msgid "Reset Password"
+msgstr "Resetar Senha"
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:37
+#: Plugin/Usermgmt/View/Users/change_password.ctp:62
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:41
+msgid "New Password"
+msgstr "Nova Senha"
+
+#: Plugin/Usermgmt/View/Users/activate_password.ctp:43
+#: Plugin/Usermgmt/View/Users/add_user.ctp:83
+#: Plugin/Usermgmt/View/Users/change_password.ctp:68
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:47
+#: Plugin/Usermgmt/View/Users/register.ctp:80
+msgid "Confirm Password"
+msgstr "Confirmar Senha"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:61
+msgid "Please Note: unchecked row will not save in database."
+msgstr "Atenção: linha desmarcada não será salva em banco de dados."
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:65
+msgid "User Group"
+msgstr "Grupo de Usuário"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:66
+#: Plugin/Usermgmt/View/Users/add_user.ctp:59
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:49
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:62
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:60
+#: Plugin/Usermgmt/View/Users/register.ctp:56
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:53
+#: Plugin/Usermgmt/View/Users/view_user.ctp:64
+msgid "First Name"
+msgstr "Primeiro Nome"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:67
+#: Plugin/Usermgmt/View/Users/add_user.ctp:65
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:55
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:68
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:64
+#: Plugin/Usermgmt/View/Users/register.ctp:62
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:57
+#: Plugin/Usermgmt/View/Users/view_user.ctp:68
+msgid "Last Name"
+msgstr "Ultimo Nome"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:71
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:67
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:80
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:72
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:65
+#: Plugin/Usermgmt/View/Users/view_user.ctp:76
+msgid "Gender"
+msgstr "Sexo"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:72
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:79
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:92
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:80
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:73
+#: Plugin/Usermgmt/View/Users/view_user.ctp:84
+msgid "Birthday"
+msgstr "Data de Nascimento"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:73
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:91
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:104
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:88
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:81
+#: Plugin/Usermgmt/View/Users/view_user.ctp:92
+msgid "Location"
+msgstr "Local"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:74
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:73
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:86
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:76
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:69
+#: Plugin/Usermgmt/View/Users/view_user.ctp:80
+msgid "Marital Status"
+msgstr "Estado Civil"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:75
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:85
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:98
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:84
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:77
+#: Plugin/Usermgmt/View/Users/view_user.ctp:88
+msgid "Cellphone"
+msgstr "Celular"
+
+#: Plugin/Usermgmt/View/Users/add_multiple_users.ctp:76
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:103
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:116
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:92
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:85
+#: Plugin/Usermgmt/View/Users/view_user.ctp:96
+msgid "Web Page"
+msgstr "Web Page"
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:37
+msgid "Old Password"
+msgstr "Senha Atual"
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:50
+msgid "If this email is yours please verify"
+msgstr "Se este email é seu, por favor verifique"
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:51
+msgid "Verify"
+msgstr "Verificar"
+
+#: Plugin/Usermgmt/View/Users/change_password.ctp:53
+msgid "Verification Code"
+msgstr "Código de Verificação"
+
+#: Plugin/Usermgmt/View/Users/change_user_password.ctp:30
+msgid "Change Password for %s"
+msgstr "Mudar senha para %s"
+
+#: Plugin/Usermgmt/View/Users/edit_profile.ctp:97
+#: Plugin/Usermgmt/View/Users/edit_user.ctp:110
+msgid "Photo"
+msgstr "Foto"
+
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:37
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:37
+msgid "Enter Email / Username"
+msgstr "Entre com Email / Nome de Usuário"
+
+#: Plugin/Usermgmt/View/Users/email_verification.ctp:46
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:46
+#: Plugin/Usermgmt/View/Users/login.ctp:73
+#: Plugin/Usermgmt/View/Users/register.ctp:89
+msgid "Prove you're not a robot"
+msgstr "Prove-nos que não é um robô"
+
+#: Plugin/Usermgmt/View/Users/forgot_password.ctp:31
+msgid "Forgot Password"
+msgstr "Esqueci minha senha"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:34
+msgid "or"
+msgstr "ou"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:39
+msgid "Sign Up"
+msgstr "Cadastro"
+
+#: Plugin/Usermgmt/View/Users/login.ctp:63
+msgid "Remember me"
+msgstr "Memorizar"
+
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:52
+#: Plugin/Usermgmt/View/Users/view_user.ctp:56
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:45
+msgid "Group(s)"
+msgstr "Grupo(s)"
+
+#: Plugin/Usermgmt/View/Users/myprofile.ctp:107
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:100
+#: Plugin/Usermgmt/View/Users/view_user.ctp:137
+msgid "Joined"
+msgstr "Ingressou em "
+
+#: Plugin/Usermgmt/View/Users/register.ctp:30
+msgid "Sign Up or"
+msgstr "Cadastro ou"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:44
+msgid "Select csv file"
+msgstr "Selecione o arquivo csv"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:52
+msgid "Instructions for CSV file"
+msgstr "Instruções para arquivo CSV"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:55
+msgid "First line should be table fields name"
+msgstr "Primeira linha deve ser o nome campos da tabela"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:56
+msgid "You can add one or more than one users"
+msgstr "Pode adicionar um ou mais usuários"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:57
+msgid "leave blank for empty values"
+msgstr "deixe em branco para valores vazios"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:59
+msgid "For user group id field value should be in following"
+msgstr "Para o campo id do grupo, o valor deve estar no seguinte "
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:64
+msgid "For multiple groups set group ids comma separated without space for e.g. 1,2"
+msgstr "Para mais de um grupo, setar ids do grupo separados por virgula sem espaço por exemplo: 1,2"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:66
+msgid "For gender field value should be in following"
+msgstr "Para o campo Sexo o valor deve estar no seguinte"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:72
+msgid "For marital status field value should be in following"
+msgstr "Para estado civil o valor deve estar no seguinte"
+
+#: Plugin/Usermgmt/View/Users/upload_csv.ctp:77
+msgid "For Birthday date format should be either 1999-01-25 or 25-01-1999"
+msgstr "Para data de nascimento o formato deve ser 1999-01-25 ou 25-01-1999"
+
+#: Plugin/Usermgmt/View/Users/view_profile.ctp:30
+msgid "User Public Profile"
+msgstr "Perfil Público de Usuário"
+
+#: Plugin/Usermgmt/View/Users/view_user.ctp:30
+msgid "User Detail"
+msgstr "Detalhes do Usuário"
+
+#: Plugin/Usermgmt/View/Users/view_user.ctp:111
+msgid "By Admin"
+msgstr "Por Admin"
+
+#: Plugin/Usermgmt/View/Users/view_user.ctp:141
+msgid "Last Login"
+msgstr "Último Login"
+
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:30
+msgid "Site Permissions for %s"
+msgstr "Permissões do Site para %s"
+
+#: Plugin/Usermgmt/View/Users/view_user_permissions.ctp:60
+msgid "Change"
+msgstr "Alterar"

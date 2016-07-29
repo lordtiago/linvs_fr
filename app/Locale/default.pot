@@ -1,0 +1,482 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2014-02-03 23:16+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: Controller/PeopleController.php:44;92;140
+msgid "Invalid person"
+msgstr ""
+
+#: Controller/PeopleController.php:70;114
+msgid "The person has been saved."
+msgstr ""
+
+#: Controller/PeopleController.php:73;117
+msgid "The person could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/PeopleController.php:144
+msgid "The person has been deleted."
+msgstr ""
+
+#: Controller/PeopleController.php:146
+msgid "The person could not be deleted. Please, try again."
+msgstr ""
+
+#: Controller/TithesController.php:48;84;111
+msgid "Invalid tithe"
+msgstr ""
+
+#: Controller/TithesController.php:63;88
+msgid "The tithe has been saved."
+msgstr ""
+
+#: Controller/TithesController.php:66;91
+msgid "The tithe could not be saved. Please, try again."
+msgstr ""
+
+#: Controller/TithesController.php:115
+msgid "The tithe has been deleted."
+msgstr ""
+
+#: Controller/TithesController.php:117
+msgid "The tithe could not be deleted. Please, try again."
+msgstr ""
+
+#: View/Layouts/default.ctp:62
+#: View/People/add.ctp:8
+#: View/People/edit.ctp:7
+#: View/People/index.ctp:2;6
+#: View/People/view.ctp:5
+msgid "People"
+msgstr ""
+
+#: View/Layouts/default.ctp:63
+#: View/Tithes/view.ctp:6
+msgid "Tithe"
+msgstr ""
+
+#: View/Layouts/default.ctp:73
+msgid "Home"
+msgstr ""
+
+#: View/People/add.ctp:8
+#: View/People/edit.ctp:7
+#: View/People/index.ctp:2
+#: View/People/view.ctp:5
+msgid "/people"
+msgstr ""
+
+#: View/People/add.ctp:9
+#: View/Tithes/add.ctp:9
+msgid "Add"
+msgstr ""
+
+#: View/People/add.ctp:9
+msgid "/people/add"
+msgstr ""
+
+#: View/People/add.ctp:14
+msgid "Add Person"
+msgstr ""
+
+#: View/People/add.ctp:27;28;29
+#: View/People/edit.ctp:27;28;29
+msgid "(choose one)"
+msgstr ""
+
+#: View/People/add.ctp:40
+#: View/People/edit.ctp:40
+#: View/Tithes/add.ctp:30
+#: View/Tithes/edit.ctp:26
+msgid "Submit"
+msgstr ""
+
+#: View/People/add.ctp:52
+#: View/People/edit.ctp:51
+#: View/People/index.ctp:21;71
+#: View/People/view.ctp:170;194;217
+#: View/Tithes/add.ctp:41
+#: View/Tithes/edit.ctp:37
+#: View/Tithes/index.ctp:83;127
+#: View/Tithes/view.ctp:47
+msgid "Actions"
+msgstr ""
+
+#: View/People/add.ctp:59
+#: View/People/edit.ctp:59
+#: View/People/view.ctp:174
+#: View/Tithes/add.ctp:49
+#: View/Tithes/edit.ctp:46
+#: View/Tithes/index.ctp:134
+#: View/Tithes/view.ctp:57
+msgid "List People"
+msgstr ""
+
+#: View/People/add.ctp:60
+#: View/People/edit.ctp:60
+#: View/People/index.ctp:78
+#: View/People/view.ctp:176
+msgid "List Parishes"
+msgstr ""
+
+#: View/People/add.ctp:61
+#: View/People/edit.ctp:61
+#: View/People/index.ctp:79
+#: View/People/view.ctp:177
+msgid "New Parish"
+msgstr ""
+
+#: View/People/add.ctp:62
+#: View/People/edit.ctp:62
+#: View/People/index.ctp:80
+#: View/People/view.ctp:178
+#: View/Tithes/add.ctp:48
+#: View/Tithes/edit.ctp:45
+#: View/Tithes/view.ctp:55
+msgid "List Tithes"
+msgstr ""
+
+#: View/People/add.ctp:63
+#: View/People/edit.ctp:63
+#: View/People/index.ctp:81
+#: View/People/view.ctp:179;223
+#: View/Tithes/index.ctp:133
+#: View/Tithes/view.ctp:56
+msgid "New Tithe"
+msgstr ""
+
+#: View/People/edit.ctp:8
+#: View/People/index.ctp:41
+#: View/People/view.ctp:207
+#: View/Tithes/edit.ctp:9
+#: View/Tithes/index.ctp:98
+msgid "Edit"
+msgstr ""
+
+#: View/People/edit.ctp:8
+msgid "/people/edit"
+msgstr ""
+
+#: View/People/edit.ctp:13
+#: View/People/view.ctp:172
+msgid "Edit Person"
+msgstr ""
+
+#: View/People/edit.ctp:58
+#: View/People/index.ctp:42
+#: View/People/view.ctp:208
+#: View/Tithes/edit.ctp:44
+#: View/Tithes/index.ctp:99
+msgid "Delete"
+msgstr ""
+
+#: View/People/edit.ctp:58
+#: View/People/index.ctp:42
+#: View/People/view.ctp:173;208
+#: View/Tithes/edit.ctp:44
+#: View/Tithes/index.ctp:99
+#: View/Tithes/view.ctp:54
+msgid "Are you sure you want to delete # %s?"
+msgstr ""
+
+#: View/People/index.ctp:40
+#: View/People/view.ctp:6;206
+#: View/Tithes/index.ctp:97
+#: View/Tithes/view.ctp:3
+msgid "View"
+msgstr ""
+
+#: View/People/index.ctp:52
+#: View/Tithes/index.ctp:108
+msgid "Page {:page} of {:pages}, showing {:current} records out of {:count} total, starting on record {:start}, ending on {:end}"
+msgstr ""
+
+#: View/People/index.ctp:58
+#: View/Tithes/index.ctp:114
+msgid "previous"
+msgstr ""
+
+#: View/People/index.ctp:64
+#: View/Tithes/index.ctp:120
+msgid "next"
+msgstr ""
+
+#: View/People/index.ctp:77
+#: View/People/view.ctp:175
+#: View/Tithes/add.ctp:50
+#: View/Tithes/edit.ctp:47
+#: View/Tithes/index.ctp:135
+#: View/Tithes/view.ctp:58
+msgid "New Person"
+msgstr ""
+
+#: View/People/view.ctp:6
+msgid "/people/view"
+msgstr ""
+
+#: View/People/view.ctp:8;11
+#: View/Tithes/view.ctp:38
+msgid "Person"
+msgstr ""
+
+#: View/People/view.ctp:14
+msgid "Parents"
+msgstr ""
+
+#: View/People/view.ctp:18;143
+msgid "Spouse"
+msgstr ""
+
+#: View/People/view.ctp:22;156
+msgid "Childs"
+msgstr ""
+
+#: View/People/view.ctp:29;187
+#: View/Tithes/view.ctp:8
+msgid "Id"
+msgstr ""
+
+#: View/People/view.ctp:34
+msgid "Name"
+msgstr ""
+
+#: View/People/view.ctp:39
+msgid "Birth"
+msgstr ""
+
+#: View/People/view.ctp:44
+msgid "Cpf"
+msgstr ""
+
+#: View/People/view.ctp:49
+msgid "Rg"
+msgstr ""
+
+#: View/People/view.ctp:54
+msgid "Street"
+msgstr ""
+
+#: View/People/view.ctp:59
+msgid "Number"
+msgstr ""
+
+#: View/People/view.ctp:64
+msgid "District"
+msgstr ""
+
+#: View/People/view.ctp:69
+msgid "Cep"
+msgstr ""
+
+#: View/People/view.ctp:74
+msgid "City"
+msgstr ""
+
+#: View/People/view.ctp:79
+msgid "Uf"
+msgstr ""
+
+#: View/People/view.ctp:84
+msgid "Country"
+msgstr ""
+
+#: View/People/view.ctp:89
+msgid "Tel"
+msgstr ""
+
+#: View/People/view.ctp:94
+msgid "Cel"
+msgstr ""
+
+#: View/People/view.ctp:99
+msgid "Cel2"
+msgstr ""
+
+#: View/People/view.ctp:104
+msgid "Email"
+msgstr ""
+
+#: View/People/view.ctp:109
+msgid "Parish"
+msgstr ""
+
+#: View/People/view.ctp:120
+msgid "Father"
+msgstr ""
+
+#: View/People/view.ctp:123;131;145;159
+msgid "Name: "
+msgstr ""
+
+#: View/People/view.ctp:124;132;146;160
+msgid "Birth: "
+msgstr ""
+
+#: View/People/view.ctp:125;133;147;161
+msgid "Tel: "
+msgstr ""
+
+#: View/People/view.ctp:173
+msgid "Delete Person"
+msgstr ""
+
+#: View/People/view.ctp:183
+msgid "Related Tithes"
+msgstr ""
+
+#: View/People/view.ctp:188
+#: View/Tithes/view.ctp:13
+msgid "Value"
+msgstr ""
+
+#: View/People/view.ctp:189
+#: View/Tithes/view.ctp:18
+msgid "Month"
+msgstr ""
+
+#: View/People/view.ctp:190
+#: View/Tithes/view.ctp:23
+msgid "Year"
+msgstr ""
+
+#: View/People/view.ctp:191
+#: View/Tithes/view.ctp:28
+msgid "Created"
+msgstr ""
+
+#: View/People/view.ctp:192
+#: View/Tithes/view.ctp:33
+msgid "Modified"
+msgstr ""
+
+#: View/People/view.ctp:193
+msgid "Person Id"
+msgstr ""
+
+#: View/Tithes/add.ctp:8
+#: View/Tithes/edit.ctp:8
+#: View/Tithes/index.ctp:54;58
+#: View/Tithes/view.ctp:2
+msgid "Tithes"
+msgstr ""
+
+#: View/Tithes/add.ctp:8
+#: View/Tithes/edit.ctp:8
+#: View/Tithes/index.ctp:54
+#: View/Tithes/view.ctp:2
+msgid "/tithes"
+msgstr ""
+
+#: View/Tithes/add.ctp:9
+msgid "/tithes/add"
+msgstr ""
+
+#: View/Tithes/add.ctp:15
+msgid "Add Tithe"
+msgstr ""
+
+#: View/Tithes/edit.ctp:9
+msgid "/tithes/edit"
+msgstr ""
+
+#: View/Tithes/edit.ctp:14
+#: View/Tithes/view.ctp:53
+msgid "Edit Tithe"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "January"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "February"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "March"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "April"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "May"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "June"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "July"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "August"
+msgstr ""
+
+#: View/Tithes/index.ctp:1
+msgid "September"
+msgstr ""
+
+#: View/Tithes/index.ctp:2
+msgid "October"
+msgstr ""
+
+#: View/Tithes/index.ctp:2
+msgid "November"
+msgstr ""
+
+#: View/Tithes/index.ctp:2
+msgid "December"
+msgstr ""
+
+#: View/Tithes/view.ctp:3
+msgid "/tithes/view"
+msgstr ""
+
+#: View/Tithes/view.ctp:54
+msgid "Delete Tithe"
+msgstr ""
+
+#: Model/Person.php:validation for field name
+msgid "This field doesn't should be empty"
+msgstr ""
+
+#: Model/Person.php:validation for field birth
+msgid "date"
+msgstr ""
+
+#: Model/Person.php:validation for field uf
+msgid "maxLength"
+msgstr ""
+
+#: Model/Person.php:validation for field email
+msgid "Type a valid email"
+msgstr ""
+
+#: Model/Tithe.php:validation for field value
+msgid "Entry with a value"
+msgstr ""
+
+#: Model/Tithe.php:validation for field month;validation for field year;validation for field person_id
+msgid "numeric"
+msgstr ""
+
+#: Model/Tithe.php:validation for field created;validation for field modified
+msgid "datetime"
+msgstr ""
+

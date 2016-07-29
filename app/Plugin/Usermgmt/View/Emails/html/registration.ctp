@@ -1,0 +1,1 @@
+<?php echo __('Welcome %s,<br/><br/>Thank you for your registration on %s.<br/><br/>Thanks,<br/>%s', $user['User']['first_name'], SITE_URL, SITE_NAME); ?>

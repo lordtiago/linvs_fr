@@ -1,0 +1,113 @@
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"]
+{.form-control;}
+
+
+.input {
+	margin-top: @padding-large-vertical;
+	.make-md-column-pull(1);
+	.make-md-column-push(1);
+	.make-md-column(10);
+	position: relative;
+	float: left;
+
+	select,
+	textarea,
+	input,
+	label {
+		position: relative;
+		float: left;
+		width: 100%;
+	}
+
+	label {text-indent: 3px;}
+}
+
+.date {
+	select {
+		.make-md-column(2);
+		margin-right:@padding-large-horizontal;
+	}
+	span {
+		float: left;
+		padding: 8px 16px 0 0;
+	}
+}
+
+.control-group {
+	margin-top: @padding-large-vertical*2;
+	.make-md-column(10);
+	text-align: right;
+	float: none !important;
+}
+
+fieldset {
+	legend {
+		.tt;
+	}
+}
+
+.number,
+.uf { .make-md-column(1); }
+
+.district,
+.country { .make-md-column(3); }
+
+.rg,
+.cpf,
+.tel,
+.cel,
+.cel2,
+.email { .make-md-column(5); }
+
+.street,
+.city { .make-md-column(6); }
+
+.addnew {
+	margin-top: @padding-large-vertical;
+	.make-md-column-pull(1);
+	.make-md-column-push(1);
+	.make-md-column(9);
+	position: relative;
+	float: left;
+}
+
+.add-new-people {
+	margin-top: @padding-large-vertical;
+	.make-md-column-pull(1);
+	.make-md-column-push(1);
+	.make-md-column(1);
+	position: relative;
+	float: left;
+	clear: left;
+}
+
+// Tithe
+form#TitheEditForm,
+form#TitheAddForm {
+	.text {
+		position: relative;
+		.make-md-column(4);
+	}
+	.number {
+		position: relative;
+		.make-md-column(3);
+	}
+}
+
+.kin {float: left; width: 85%;}
+.people form .add {margin-top: 20px;}

@@ -1,0 +1,8 @@
+INSERT INTO `user_settings` (`id`, `name`, `name_public`, `value`, `type`, `category`) VALUES (NULL, 'gmailApiKey', 'Google Api Key', '', 'input', 'GOOGLE');
+
+INSERT INTO `user_settings` (`id`, `name`, `name_public`, `value`, `type`, `category`) VALUES (NULL, 'gmailClientId', 'Google Client Id', '', 'input', 'GOOGLE');
+
+INSERT INTO `user_settings` (`id`, `name`, `name_public`, `value`, `type`, `category`) VALUES (NULL, 'gmailClientSecret', 'Google Client Secret', '', 'input', 'GOOGLE');
+
+ALTER TABLE `user_settings` CHANGE `value` `value` TEXT NULL DEFAULT NULL;
+

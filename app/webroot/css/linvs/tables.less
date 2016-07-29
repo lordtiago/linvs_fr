@@ -1,0 +1,61 @@
+
+// classificação das colunas
+
+a.asc {
+	.glyphicon-circle-arrow-down;
+	&:before { 
+		.glyphicon;
+	}
+}
+
+a.desc {
+		.glyphicon-circle-arrow-up;
+	&:before { 
+		.glyphicon;
+	}
+}
+
+a.asc:before,
+a.desc:before {
+	color: @gray-light;
+	margin-right: 5px;
+}
+
+// botões de ação
+
+a.act-view { .glyphicon-search; }
+
+a.act-edit { .glyphicon-pencil; }
+
+a.act-remove { 
+	.glyphicon-trash; 
+	color: @brand-danger; 
+	margin-left: @padding-large-vertical;
+	&:hover { 
+		.glyphicon-remove; 
+		color: darken(@brand-danger,10%);
+	}
+}
+
+a.act-view,
+a.act-edit,
+a.act-remove {
+	overflow: hidden;
+	display: block;
+	.square(22px);
+	margin-right: @padding-base-vertical;
+	float: left;
+	font-size: 18px;
+
+	&:before { 
+		.glyphicon;
+	}
+}
+
+#table-people {
+	thead tr th:nth-child(n+5),
+	tbody tr td:nth-child(n+5) { display: none; }
+	
+	thead tr th:last-child,
+	tbody tr td:last-child  { display: table-cell; }
+}
