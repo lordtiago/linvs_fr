@@ -45,24 +45,24 @@
 //portuguese routes
 
 Router::connect(
-    '/dizimo/:month/:year',
+    '/doacao/:month/:year',
     array('controller' => 'tithes', 'action' => 'index'),
     array('pass'=>array('month','year'), 'month' => '0?[1-9]|1[012]','year' => '[12][0-9]{3}')
 );	
 
-Router::connect('/dizimo', array('controller' => 'tithes', 'action' => 'index'));
-Router::connect('/dizimo/cadastrar', array('controller' => 'tithes', 'action' => 'add'));
-Router::connect('/dizimo/editar', array('controller' => 'tithes', 'action' => 'edit'));
-Router::connect('/dizimo/editar/:id', array('controller' => 'tithes', 'action' => 'edit'),array('pass' => array('id'),'id' => '[0-9]+'));
-Router::connect('/dizimo/ver', array('controller' => 'tithes', 'action' => 'view'));
-Router::connect('/dizimo/ver/:id', array('controller' => 'tithes', 'action' => 'view'),array('pass' => array('id'),'id' => '[0-9]+'));
+Router::connect('/doacao', array('controller' => 'tithes', 'action' => 'index'));
+Router::connect('/doacao/cadastrar', array('controller' => 'tithes', 'action' => 'add'));
+Router::connect('/doacao/editar', array('controller' => 'tithes', 'action' => 'edit'));
+Router::connect('/doacao/editar/:id', array('controller' => 'tithes', 'action' => 'edit'),array('pass' => array('id'),'id' => '[0-9]+'));
+Router::connect('/doacao/ver', array('controller' => 'tithes', 'action' => 'view'));
+Router::connect('/doacao/ver/:id', array('controller' => 'tithes', 'action' => 'view'),array('pass' => array('id'),'id' => '[0-9]+'));
 
-Router::connect('/pessoa', array('controller' => 'people', 'action' => 'index'));
-Router::connect('/pessoa/cadastrar', array('controller' => 'people', 'action' => 'add'));
-Router::connect('/pessoa/editar', array('controller' => 'people', 'action' => 'edit'));
-Router::connect('/pessoa/editar/:id', array('controller' => 'people', 'action' => 'edit'),array('pass' => array('id'),'id' => '[0-9]+'));
-Router::connect('/pessoa/ver', array('controller' => 'people', 'action' => 'view')); 
-Router::connect('/pessoa/ver/:id', array('controller' => 'people', 'action' => 'view'),array('pass' => array('id'),'id' => '[0-9]+'));
+Router::connect('/socio', array('controller' => 'people', 'action' => 'index'));
+Router::connect('/socio/cadastrar', array('controller' => 'people', 'action' => 'add'));
+Router::connect('/socio/editar', array('controller' => 'people', 'action' => 'edit'));
+Router::connect('/socio/editar/:id', array('controller' => 'people', 'action' => 'edit'),array('pass' => array('id'),'id' => '[0-9]+'));
+Router::connect('/socio/ver', array('controller' => 'people', 'action' => 'view')); 
+Router::connect('/socio/ver/:id', array('controller' => 'people', 'action' => 'view'),array('pass' => array('id'),'id' => '[0-9]+'));
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on

@@ -1,7 +1,7 @@
  <?php
  //Configs
  echo $this->Html->script('jquery.maskedinput-1.3.1');
- echo $this->Html->script('jquery.cep-1.0.min');
+ echo $this->Html->script('jquery.zipcode');
  echo $this->Html->script('select2.min');
  echo $this->Html->script('modal');
  echo $this->Html->script('people-configs');
@@ -17,13 +17,12 @@
 	<?php
 		echo $this->Form->input('id');		
 		echo $this->Form->input('name',array('autocomplete'=>"off"));
-		echo $this->Form->input('birth',array('minYear' => 1900, 'maxYear'=>date('Y'),'orderYear'=>'asc','dateFormat' => 'DMY','empty' => '(escolha um)','separator' => '<span>/</span>'));
-		echo $this->Form->input('parish_id', array("empty"=>__('Sem paróquia')));	
+		echo $this->Form->input('birth',array('minYear' => 1900, 'maxYear'=>date('Y'),'orderYear'=>'asc','dateFormat' => 'DMY','empty' => '(escolha um)','separator' => '<span>/</span>'));	
 	?>
-	<div id="person-container" style="<?php if($this->request->data['Person']['parish_id']<1) echo 'display: none;';?>">
+	<div id="person-container">
 	<?php	
-		echo $this->Form->input('cpf', array('div' =>  array('class' => 'cpf input text')));
-		echo $this->Form->input('rg', array('div' =>  array('class' => 'rg input text')));
+		/*echo $this->Form->input('cpf', array('div' =>  array('class' => 'cpf input text')));
+		echo $this->Form->input('rg', array('div' =>  array('class' => 'rg input text')));*/
 		echo $this->Form->input('cep', array('div' =>  array('class' => 'cep input text')));
 		echo $this->Form->input('street', array('div' =>  array('class' => 'street input text')));
 		echo $this->Form->input('number', array('div' =>  array('class' => 'number input text')));
@@ -34,13 +33,13 @@
 	?>
 	<fieldset class="kin">
 	<?php
-		echo $this->Form->input('father_id', array('options' => $fathers, "empty"=>__('(choose one)')));
+		/*echo $this->Form->input('father_id', array('options' => $fathers, "empty"=>__('(choose one)')));
 		echo $this->Form->input('father2_id', array('options' => $fathers, "empty"=>__('(choose one)')));
 		echo $this->Form->input('spouse_id', array("empty"=>__('(choose one)')));
-		echo $this->Form->input('marriage',array('minYear' => 1900, 'maxYear'=>date('Y'),'orderYear'=>'asc','dateFormat' => 'DMY','empty' => '(escolha um)','separator' => '<span>/</span>'));
+		echo $this->Form->input('marriage',array('minYear' => 1900, 'maxYear'=>date('Y'),'orderYear'=>'asc','dateFormat' => 'DMY','empty' => '(escolha um)','separator' => '<span>/</span>'));*/
 	?>
 	</fieldset>
-		<button class="btn btn-primary btn-lg add" style="float: left;" data-toggle="modal" data-target=".createPerson">+</button>
+		<!--<button class="btn btn-primary btn-lg add" style="float: left;" data-toggle="modal" data-target=".createPerson">+</button>-->
 	<?php
 		echo $this->Form->input('tel', array('div' =>  array('class' => 'tel input text')));
 		echo $this->Form->input('cel', array('div' =>  array('class' => 'cel input text')));

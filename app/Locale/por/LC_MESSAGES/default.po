@@ -48,19 +48,19 @@ msgstr "Cadastro inválido"
 
 #: Controller/TithesController.php:63;88
 msgid "The tithe has been saved."
-msgstr "O dízimo foi salvo."
+msgstr "A doação foi salva."
 
 #: Controller/TithesController.php:66;91
 msgid "The tithe could not be saved. Please, try again."
-msgstr "Falha ao registrar o dizimo. Por favor, tente novamente."
+msgstr "Falha ao registrar a doação. Por favor, tente novamente."
 
 #: Controller/TithesController.php:115
 msgid "The tithe has been deleted."
-msgstr "Registro de Dízimo deletado."
+msgstr "Registro de Doação deletado."
 
 #: Controller/TithesController.php:117
 msgid "The tithe could not be deleted. Please, try again."
-msgstr "O dízimo não pode ser deletado. Por favor, tente mais tarde."
+msgstr "A doação não pode ser deletada. Por favor, tente mais tarde."
 
 #: View/Layouts/default.ctp:53
 #: View/Helper/HtmlHelper.php:767
@@ -83,7 +83,7 @@ msgstr "Data de Casamento"
 #: View/People/index.ctp:2
 #: View/People/view.ctp:5f
 msgid "/people"
-msgstr "/pessoa"
+msgstr "/socio"
 
 #: View/People/add.ctp:9
 #: View/Tithes/add.ctp:9
@@ -158,7 +158,7 @@ msgstr "Nova Paróquia"
 #: View/Tithes/edit.ctp:40
 #: View/Tithes/view.ctp:50
 msgid "List Tithes"
-msgstr "Listar Dízimos"
+msgstr "Listar Doações"
 
 #: View/People/add.ctp:58
 #: View/People/edit.ctp:58
@@ -167,7 +167,7 @@ msgstr "Listar Dízimos"
 #: View/Tithes/index.ctp:110
 #: View/Tithes/view.ctp:51
 msgid "New Tithe"
-msgstr "Novo Dízimo"
+msgstr "Nova Doação"
 
 #: View/People/edit.ctp:8
 #: View/People/index.ctp:37
@@ -309,11 +309,11 @@ msgstr "N°"
 
 #: View/People/view.ctp:64
 msgid "District"
-msgstr "Bairro"
+msgstr "Distrito"
 
 #: View/People/view.ctp:69
 msgid "Cep"
-msgstr "CEP"
+msgstr "Código Postal"
 
 #: View/People/view.ctp:74
 msgid "City"
@@ -321,7 +321,7 @@ msgstr "Cidade"
 
 #: View/People/view.ctp:79
 msgid "Uf"
-msgstr "UF"
+msgstr "Estado/Provincia"
 
 #: View/People/view.ctp:84
 msgid "Country"
@@ -372,7 +372,7 @@ msgstr "Apagar Pessoa"
 
 #: View/People/view.ctp:183
 msgid "Related Tithes"
-msgstr "Dízimos relacionados"
+msgstr "Doações relacionadas"
 
 #: View/People/view.ctp:188
 #: View/Tithes/view.ctp:13
@@ -420,31 +420,31 @@ msgstr "Código da Pessoa"
 #: View/Tithes/index.ctp:54;57
 #: View/Tithes/view.ctp:2
 msgid "Tithes"
-msgstr "Dízimos"
+msgstr "Doações"
 
 #: View/Tithes/add.ctp:8
 #: View/Tithes/edit.ctp:8
 #: View/Tithes/index.ctp:54
 #: View/Tithes/view.ctp:2
 msgid "/tithes"
-msgstr "/dizimo"
+msgstr "/doacao"
 
 #: View/Tithes/add.ctp:9
 msgid "/tithes/add"
-msgstr "/dizimo/cadastrar"
+msgstr "/doacao/cadastrar"
 
 #: View/Tithes/add.ctp:15
 msgid "Add Tithe"
-msgstr "Cadastro do Dízimo"
+msgstr "Cadastro de Doação"
 
 #: View/Tithes/edit.ctp:9
 msgid "/tithes/edit"
-msgstr "/dizimo/editar"
+msgstr "/doacao/editar"
 
 #: View/Tithes/edit.ctp:14
 #: View/Tithes/view.ctp:48
 msgid "Edit Tithe"
-msgstr "Atualizar Dízimo"
+msgstr "Atualizar Doação"
 
 #: View/Tithes/index.ctp:1
 msgid "January"
@@ -515,15 +515,15 @@ msgstr ""
 
 #: View/Tithes/view.ctp:3
 msgid "/tithes/view"
-msgstr "/dizimo/ver"
+msgstr "/doacao/ver"
 
 #: View/Tithes/view.ctp:6
 msgid "Tithe"
-msgstr "Dízimo"
+msgstr "Doação"
 
 #: View/Tithes/view.ctp:49
 msgid "Delete Tithe"
-msgstr "Apagar Dízimo"
+msgstr "Apagar Doação"
 
 #: View/Tithes/report_simplify.ctp:10
 msgid "Date"

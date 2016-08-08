@@ -37,6 +37,11 @@ input[type="color"]
 	label {text-indent: 3px;}
 }
 
+form .required:after {
+    position: absolute;
+    left: 0px;
+}
+
 .date {
 	select {
 		.make-md-column(2);
@@ -61,8 +66,8 @@ fieldset {
 	}
 }
 
-.number,
-.uf { .make-md-column(1); }
+.number { .make-md-column(1); }
+.uf { .make-md-column(3); }
 
 .district,
 .country { .make-md-column(3); }
@@ -74,8 +79,8 @@ fieldset {
 .cel2,
 .email { .make-md-column(5); }
 
-.street,
-.city { .make-md-column(6); }
+.street { .make-md-column(6); }
+.city { .make-md-column(4); }
 
 .addnew {
 	margin-top: @padding-large-vertical;

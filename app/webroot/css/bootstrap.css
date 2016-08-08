@@ -6772,6 +6772,10 @@ textareainput[type="color"] {
 .input label {
   text-indent: 3px;
 }
+form .required:after {
+  position: absolute;
+  left: 0px;
+}
 .date select {
   position: relative;
   min-height: 1px;
@@ -6814,7 +6818,18 @@ fieldset legend {
   display: inline-block;
   float: left;
 }
-.number,
+.number {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .number {
+    float: left;
+    width: 8.33333333%;
+  }
+}
 .uf {
   position: relative;
   min-height: 1px;
@@ -6822,10 +6837,9 @@ fieldset legend {
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  .number,
   .uf {
     float: left;
-    width: 8.33333333%;
+    width: 25%;
   }
 }
 .district,
@@ -6864,7 +6878,18 @@ fieldset legend {
     width: 41.66666667%;
   }
 }
-.street,
+.street {
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+@media (min-width: 992px) {
+  .street {
+    float: left;
+    width: 50%;
+  }
+}
 .city {
   position: relative;
   min-height: 1px;
@@ -6872,10 +6897,9 @@ fieldset legend {
   padding-right: 15px;
 }
 @media (min-width: 992px) {
-  .street,
   .city {
     float: left;
-    width: 50%;
+    width: 33.33333333%;
   }
 }
 .addnew {

@@ -28,6 +28,7 @@ $cakeDescription = __d('cake_dev', 'LINVS - Sistema de Gerenciamento Canônico')
 		<?php echo $title_for_layout; ?>
 	</title>
     <meta name="robots" content="noindex,nofollow">
+    <script language="javascript" src="https://maps.google.com/maps/api/js?key=AIzaSyBiYGcKPEqPcZWZsro7ZvswEIb_tVyAFvY"></script>
 	<?php
 		echo $this->Html->meta(
 			'favicon.ico',

@@ -1,13 +1,12 @@
 $(function($){
-      $("#PersonCep").mask("99.999-999");
 	  $("#PersonCpf").mask("999.999.999-99");
 	  $("#PersonTel").mask("(0xx99)9999-9999");
-	  $("#PersonCel").mask("(0xx99)9999-9999?9").focusout(function(event){
+	  /*$("#PersonCel").mask("(0xx99)9999-9999?9").focusout(function(event){
 		  nonoDigito(event);
 	  });
 	  $("#PersonCel2").mask("(0xx99)9999-9999?9").focusout(function(event){
 		  nonoDigito(event);
-	  });
+	  });*/
 	  
   	$("#PersonFatherId").select2({allowClear: true});
   	$("#PersonFather2Id").select2({allowClear: true});	  
@@ -29,24 +28,15 @@ $(function($){
               alert(msg);
           },
           success: function (data) {
-              $("#PersonStreet").val(data.tipoLogradouro + " " + data.logradouro);
-			  $("#PersonNumber").val(" Nº ");
+              $("#PersonStreet").val(data.rua);
 			  $("#PersonDistrict").val(data.bairro);
               $("#PersonCity").val(data.cidade);
               $("#PersonUf").val(data.estado);
-			  $("#PersonCountry").val("Brasil");
+			  $("#PersonCountry").val(data.pais);
           }
       });
   });
 
-
-	$("#PersonParishId").change(function(){
-		if(parseInt($(this).val()) >= 1 ){
-			$("#person-container").css("display","block");
-		}else{
-			$("#person-container").css("display","none");
-		}
-	});
 
 	$(".createPerson").on('hidden.bs.modal', function (e) {
         // Envia o formulário via Ajax
