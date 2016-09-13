@@ -20,27 +20,27 @@ msgstr "dia"
 
 #: Controller/PeopleController.php:38;86;134
 msgid "Invalid person"
-msgstr "Pessoa inexistente"
+msgstr "Sócio inexistente"
 
 #: Model/Person.php:33
 msgid "This field already exists"
-msgstr "Esta pessoa já foi cadastrada"
+msgstr "Este sócio já está cadastrado"
 
 #: Controller/PeopleController.php:64;108
 msgid "The person has been saved."
-msgstr "A pessoa foi salva."
+msgstr "O Sócio foi salvo."
 
 #: Controller/PeopleController.php:67;111
 msgid "The person could not be saved. Please, try again."
-msgstr "A pessoa não foi salvo. Por favor, tente novamente."
+msgstr "O Sócio não foi salvo. Por favor, tente novamente."
 
 #: Controller/PeopleController.php:138
 msgid "The person has been deleted."
-msgstr "A pessoa foi deletada"
+msgstr "O Sócio foi deletado"
 
 #: Controller/PeopleController.php:140
 msgid "The person could not be deleted. Please, try again."
-msgstr "A pessoa não pode ser deletada. Por favor, tente mais tarde."
+msgstr "O Sócio não pode ser deletado. Por favor, tente mais tarde."
 
 #: Controller/TithesController.php:48;84;111
 msgid "Invalid tithe"
@@ -72,7 +72,7 @@ msgstr "Início"
 #: View/People/index.ctp:2;5
 #: View/People/view.ctp:5
 msgid "People"
-msgstr "Pessoas"
+msgstr "Sócios"
 
 #: View/People/view.ctp:197
 msgid "Marriage"
@@ -92,11 +92,11 @@ msgstr "Adicionar"
 
 #: View/People/add.ctp:9
 msgid "/people/add"
-msgstr "/pessoa/cadastrar"
+msgstr "/socio/cadastrar"
 
 #: View/People/add.ctp:14
 msgid "Add Person"
-msgstr "Cadastro de Pessoa"
+msgstr "Cadastro de Sócio"
 
 #: View/People/add.ctp:27;28;29
 #: View/People/edit.ctp:27;28;29
@@ -134,7 +134,7 @@ msgstr "Ações"
 #: View/Tithes/index.ctp:111
 #: View/Tithes/view.ctp:52
 msgid "List People"
-msgstr "Listar Pessoas"
+msgstr "Listar Sócios"
 
 #: View/People/add.ctp:55
 #: View/People/edit.ctp:55
@@ -181,12 +181,12 @@ msgstr "Editar"
 
 #: View/People/edit.ctp:8
 msgid "/people/edit"
-msgstr "/pessoa/editar"
+msgstr "/socio/editar"
 
 #: View/People/edit.ctp:13
 #: View/People/view.ctp:172
 msgid "Edit Person"
-msgstr "Editar Pessoa"
+msgstr "Editar Sócio"
 
 #: View/People/edit.ctp:53
 #: View/People/index.ctp:38
@@ -255,16 +255,16 @@ msgstr "próximo"
 #: View/Tithes/index.ctp:112
 #: View/Tithes/view.ctp:53
 msgid "New Person"
-msgstr "Nova Pessoa"
+msgstr "Novo Sócio"
 
 #: View/People/view.ctp:6
 msgid "/people/view"
-msgstr "/pessoa/ver"
+msgstr "/socio/ver"
 
 #: View/People/view.ctp:8;11
 #: View/Tithes/view.ctp:38
 msgid "Person"
-msgstr "Pessoa"
+msgstr "Sócio"
 
 #: View/People/view.ctp:14
 msgid "Parents"
@@ -368,7 +368,7 @@ msgstr "Tel: "
 
 #: View/People/view.ctp:173
 msgid "Delete Person"
-msgstr "Apagar Pessoa"
+msgstr "Apagar Sócio"
 
 #: View/People/view.ctp:183
 msgid "Related Tithes"
@@ -413,7 +413,7 @@ msgstr "Modificação"
 
 #: View/People/view.ctp:193
 msgid "Person Id"
-msgstr "Código da Pessoa"
+msgstr "Código do Sócio"
 
 #: View/Tithes/add.ctp:8
 #: View/Tithes/edit.ctp:8
