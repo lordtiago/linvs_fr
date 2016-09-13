@@ -129,10 +129,10 @@ class PeopleController extends AppController {
 			//In the future to check, what is the parish that user work
 			//$this->request->data["Person"]["parish_id"] = 1;
 			$this->request->data["Person"]["name"] = strtoupper($this->request->data["Person"]["name"]);
-			$spouse = $this->request->data["Person"]["spouse_id"];
-			$marriage = $this->request->data["Person"]["marriage"];
+			//$spouse = $this->request->data["Person"]["spouse_id"];
+			//$marriage = $this->request->data["Person"]["marriage"];
 			
-			if ($this->Person->save($this->request->data)) {
+			if ($this->Person->save($this->request->data)) {/*
 				if($spouse != 0){
 					//set in spouse, the same value
 					$options = array('conditions' => array('Person.id' => $spouse));
@@ -147,7 +147,7 @@ class PeopleController extends AppController {
 					$spouse["Person"]["spouse_id"] = 0;
 					$spouse["Person"]["marriage"] = null;
 					$this->Person->save($spouse);										
-				}
+				}*/
 				
 				$this->Session->setFlash(__('The person has been saved.'),'flash_success');
 				return $this->redirect(array('action' => 'index'));

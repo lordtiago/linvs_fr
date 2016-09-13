@@ -3,6 +3,8 @@
 echo $this->Html->script('jquery.maskedinput-1.3.1');
 echo $this->Html->script('jquery.zipcode');
 echo $this->Html->script('select2.min');
+echo $this->Html->script('intlTelInput.min.js');
+echo $this->Html->css('intlTelInput.css');
 echo $this->Html->script('modal');
 echo $this->Html->script('people-configs');
 
@@ -46,7 +48,7 @@ endif;
 	</fieldset>
 	<?php /*if(!$dialog): ?>
 		<button class="btn btn-primary btn-lg add" style="float: left;" data-toggle="modal" data-target=".createPerson">+</button>
-	<?php endif; */?>
+	<?php endif; */?>   
 	<?php
 		echo $this->Form->input('tel', array('div' =>  array('class' => 'tel input text')));
 		echo $this->Form->input('cel', array('div' =>  array('class' => 'cel input text')));

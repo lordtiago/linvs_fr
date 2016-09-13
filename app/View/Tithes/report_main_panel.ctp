@@ -13,7 +13,7 @@
   <!-- Navbar inner for Services page-->
   <div data-page="services" class="navbar-inner cached">
     <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Relatórios</span></a></div>
-    <div class="center sliding">Dizimistas</div>
+    <div class="center sliding">Sócios</div>
   </div>
   <div data-page="yearly" class="navbar-inner cached">
     <div class="left sliding"><a href="#" class="back link"> <i class="icon icon-back"></i><span>Relatórios</span></a></div>
@@ -39,7 +39,7 @@
           <li><a href="#services" class="item-link">
               <div class="item-content"> 
                 <div class="item-inner">
-                  <div class="item-title">Dizimistas</div>
+                  <div class="item-title">Sócios</div>
                 </div>
               </div></a></li>
           <li><a href="#yearly" class="item-link">

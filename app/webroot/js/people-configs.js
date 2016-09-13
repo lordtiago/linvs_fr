@@ -1,6 +1,20 @@
 $(function($){
 	  $("#PersonCpf").mask("999.999.999-99");
-	  $("#PersonTel").mask("(0xx99)9999-9999");
+    
+    $.fn.intlTelInput.loadUtils(webroot+"js/utils.js");
+    
+    telOptions = {
+        preferredCountries: [ "fr", "es" ],
+        separateDialCode:true,
+        nationalMode: false
+    }
+    
+      $("#PersonTel").intlTelInput(telOptions);
+      $("#PersonCel").intlTelInput(telOptions);
+      $("#PersonCel2").intlTelInput(telOptions);
+
+    
+	  //$("#PersonTel").mask("(0xx99)9999-9999");
 	  /*$("#PersonCel").mask("(0xx99)9999-9999?9").focusout(function(event){
 		  nonoDigito(event);
 	  });
@@ -36,6 +50,12 @@ $(function($){
           }
       });
   });
+    
+    $("form").submit(function() {
+        $("#PersonTel").val($("#PersonTel").intlTelInput("getNumber"));
+        $("#PersonCel").val($("#PersonCel").intlTelInput("getNumber"));
+        $("#PersonCel2").val($("#PersonCel2").intlTelInput("getNumber"));
+    });
 
 
 	$(".createPerson").on('hidden.bs.modal', function (e) {

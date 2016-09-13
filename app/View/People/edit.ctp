@@ -3,8 +3,11 @@
  echo $this->Html->script('jquery.maskedinput-1.3.1');
  echo $this->Html->script('jquery.zipcode');
  echo $this->Html->script('select2.min');
+ echo $this->Html->script('intlTelInput.min.js');
  echo $this->Html->script('modal');
  echo $this->Html->script('people-configs');
+ echo $this->Html->css('intlTelInput.css');
+
 	$this->Html->addCrumb(__("People"), __("/people"));
 	$this->Html->addCrumb(__("Edit"), __("/people/edit"));                  
  ?>

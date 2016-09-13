@@ -6856,6 +6856,10 @@ fieldset legend {
     width: 25%;
   }
 }
+.country-list .country {
+  float: none;
+  width: 100%;
+}
 .rg,
 .cpf,
 .tel,

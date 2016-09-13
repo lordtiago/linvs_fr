@@ -196,13 +196,13 @@ class TithesController extends AppController {
     public function facade_get_title($type = null){
         if($type != null){
             if($type == "all"){
-                return "Relatório de Dizimistas agrupados por Rua";
+                return "Relatório de Sócios agrupados por Rua";
             }else if ($type == "active"){
-                return "Relatório de Dizimistas Ativos (que apresentaram nos últimos 06 meses) agrupados por Rua";
+                return "Relatório de Sócios Ativos (que doaram nos últimos 06 meses) agrupados por Rua";
             }else if ($type == "inactive_3"){
-                return "Relatório de Dizimistas Inativos que não apresentaram o dízimo nos últimos 3 meses (agrupados por Rua)";
+                return "Relatório de Sócios Inativos que não doaram nos últimos 3 meses (agrupados por Rua)";
             }else if ($type == "inactive_6"){
-                return "Relatório de Dizimistas Inativos que não apresentaram o dízimo nos últimos 6 meses (agrupados por Rua)";
+                return "Relatório de Sócios Inativos que não doaram nos últimos 6 meses (agrupados por Rua)";
             }
         }
     }    

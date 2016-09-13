@@ -130,7 +130,7 @@
 		<span class=" glyphicon glyphicon-chevron-right"></span>
 	</div>
 </div>
-	<h3>Total do dízimo: <span class="alert-msg">R$ <?php echo $sum[0]['total'];?></span></h3>
+	<h3>Total de Doações: <span class="alert-msg">R$ <?php echo $sum[0]['total'];?></span></h3>
 	<ul id="smart-menu">
 		<li><?php echo $this->Html->link(__('New Tithe'), array('action' => 'add')); ?></li>
 		<li><?php echo $this->Html->link(__('List People'), array('controller' => 'people', 'action' => 'index')); ?> </li>

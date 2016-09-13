@@ -1,5 +1,5 @@
 <?php
-$parish = "Paróquia Senhor Bom Jesus";
+$parish = "Canção Nova - Frente de Missão França";
 ?>
 <div class="report_header row">
     <div class="col-md-8">Uso exclusivo de: <?php echo $parish;?></div> <div class="col-md-3 date"><?php echo date("d/m/Y H:i");?></div>
