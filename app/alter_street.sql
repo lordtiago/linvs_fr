@@ -1,1 +1,0 @@
-ALTER TABLE `people` CHANGE `street` `street` VARCHAR(60) CHARACTER SET utf8 COLLATE utf8_general_ci NULL DEFAULT NULL;

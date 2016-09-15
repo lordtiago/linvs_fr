@@ -297,7 +297,7 @@ msgstr "CPF"
 
 #: View/People/view.ctp:49
 msgid "Rg"
-msgstr "RG"
+msgstr "Documento de Identidade"
 
 #: View/People/view.ctp:54
 msgid "Street"

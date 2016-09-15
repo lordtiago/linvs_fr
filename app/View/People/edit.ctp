@@ -24,8 +24,8 @@
 	?>
 	<div id="person-container">
 	<?php	
-		/*echo $this->Form->input('cpf', array('div' =>  array('class' => 'cpf input text')));
-		echo $this->Form->input('rg', array('div' =>  array('class' => 'rg input text')));*/
+		/*echo $this->Form->input('cpf', array('div' =>  array('class' => 'cpf input text')));*/
+		echo $this->Form->input('rg', array('div' =>  array('class' => 'rg input text')));
 		echo $this->Form->input('cep', array('div' =>  array('class' => 'cep input text')));
 		echo $this->Form->input('street', array('div' =>  array('class' => 'street input text')));
 		echo $this->Form->input('number', array('div' =>  array('class' => 'number input text')));

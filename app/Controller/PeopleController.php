@@ -83,7 +83,7 @@ class PeopleController extends AppController {
 			$spouse = $this->request->data["Person"]["spouse_id"];
 			$marriage = $this->request->data["Person"]["marriage"];
 			if ($this->Person->save($this->request->data)) {
-				if($spouse != 0){
+				/*if($spouse != 0){
 					//set in spouse, the same value
 					$options = array('conditions' => array('Person.id' => $spouse));
 					$spouse = $this->Person->find('first', $options);
@@ -96,7 +96,7 @@ class PeopleController extends AppController {
 					$spouse["Person"]["spouse_id"] = 0;
 					$spouse["Person"]["marriage"] = null;
 					$this->Person->save($spouse);										
-				}				
+				}*/				
 				if(!$modal){
 					$this->Session->setFlash(__('The person has been saved.'),'flash_success');
 					return $this->redirect(array('action' => 'index'));
